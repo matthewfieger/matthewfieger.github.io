@@ -1,0 +1,15 @@
+---
+layout: default
+title: Matthew Fieger
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <div class="row col-lg-12 col-md-12 col-sm-12">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+</div>

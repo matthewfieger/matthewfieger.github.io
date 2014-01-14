@@ -1,0 +1,81 @@
+---
+layout: default
+title: Matthew Fieger
+---
+
+<span id="shuffle">
+  <h2>
+  Quotes
+  <br id="refresh-small">
+  <button type="button" class="btn btn-primary btn-xs">click to shuffle</button>
+  </h2>
+</span>
+
+<br />
+<div id="quotes" class="quotes">
+</div>
+
+<script>
+
+$(function() {
+  // Assigns the quotes variable to an empty array.
+  var quotes = [];
+
+  $.getJSON('{{ site.url }}/assets/data/quotes.json', function(data) {
+    // Gets my quotes data with an AJAX request
+    // Assigns the results of this request to an object called "data."
+    // Accesses the "quotes" property of the "data" object, which itself is an array of objects.
+    // Applies a random sort to the array items.
+    // Assigns this randomized array to the quotes variable.
+    var quotes = data.quotes.sort(function() { return 0.5 - Math.random() });
+
+    $.each(quotes, function(item) {
+    // Iterates through each object in the "quotes" array.
+
+      $.each(this, function(key, value) {
+      	// Access the key and the value of each object in the "quotes" array.
+      	// The key == the source of the quote and the value == the content of the quote.
+        // Appends these values to the #quotes div
+        $("#quotes").append("<div class=\"quote\"> <p>" + value + "</p> <span class=\"quotes-source\">-  " + key + "</span> <br /><br /><br /> </div>");
+      });
+    });
+  });
+});
+
+</script>
+
+<script>
+
+(function($){
+
+    $.fn.shuffle = function() {
+
+        var allElems = this.get(),
+            getRandom = function(max) {
+                return Math.floor(Math.random() * max);
+            },
+            shuffled = $.map(allElems, function(){
+                var random = getRandom(allElems.length),
+                    randEl = $(allElems[random]).clone(true)[0];
+                allElems.splice(random, 1);
+                return randEl;
+           });
+
+        this.each(function(i){
+            $(this).replaceWith($(shuffled[i]));
+        });
+
+        return $(shuffled);
+
+    };
+
+})(jQuery);
+
+$( "#shuffle" ).click(function() {
+  //Initialize this function when the shuffle ID is clicked.
+  $('.quote').shuffle();
+    // Pass "quote" divs to the shuffle function.
+});
+
+
+</script>
