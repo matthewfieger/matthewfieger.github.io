@@ -1,7 +1,7 @@
 ---
 layout: quote
 title:  "Boettke and O'Donnell on Hayek"
-date:   2014-01-15 13:32:00
+date:   2014-01-16 13:32:00
 categories: posts quotes
 tags: ["economics", "hayek", "coordination problem"]
 source: "Peter J. Boettke and Kyle W. O'Donnell"
