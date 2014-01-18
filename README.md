@@ -1,1 +1,1 @@
-Made by [@matthewfieger](http://twitter.com/matthewfieger), built with [Jekyll](http://github.com/mojombo/jekyll), and hosted on [GitHub Pages](http://pages.github.com/).
+Made by [@matthewfieger](http://twitter.com/matthewfieger), built with [Jekyll](http://jekyllrb.com/), and hosted on [GitHub Pages](http://pages.github.com/).
