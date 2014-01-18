@@ -3,7 +3,7 @@ layout: quote
 title:  "Dixon on Bitcoin"
 date:   2014-01-01 3:58:42
 categories: posts quotes
-tags: ["bitcoin", "micropayments"]
+tags: ["cryptocurrency", "bitcoin", "micropayments"]
 source: "Chris Dixon"
 link: http://cdixon.org/2013/12/31/why-im-interested-in-bitcoin/
 ---

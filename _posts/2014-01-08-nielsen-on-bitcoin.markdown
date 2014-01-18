@@ -3,7 +3,7 @@ layout: quote
 title:  "Nielsen on Bitcoin"
 date:   2014-01-08 10:02:00
 categories: posts quotes
-tags: ["bitcoin", "cryptography"]
+tags: ["cryptocurrency", "bitcoin", "cryptography"]
 source: "Michael Nielsen"
 link: http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/
 ---

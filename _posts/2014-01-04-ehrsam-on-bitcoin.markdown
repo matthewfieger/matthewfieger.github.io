@@ -3,7 +3,7 @@ layout: quote
 title:  "Ehrsam on Bitcoin"
 date:   2014-01-04 17:49:09
 categories: posts quotes
-tags: ["bitcoin", "payments"]
+tags: ["cryptocurrency", "bitcoin", "payments"]
 source: "Fred Ehrsam"
 link: http://recode.net/2014/01/02/bitcoin-is-good/
 ---

@@ -3,7 +3,7 @@ layout: quote
 title:  "Levine on Bitcoin"
 date:   2013-12-30 12:01:48
 categories: posts quotes
-tags: ["bitcoin", "double spending", "byzantine generals"]
+tags: ["cryptocurrency", "bitcoin", "double spending", "byzantine generals"]
 source: "John R. Levine"
 link: http://krugman.blogs.nytimes.com/2013/12/29/an-ubernerd-weighs-in/
 ---

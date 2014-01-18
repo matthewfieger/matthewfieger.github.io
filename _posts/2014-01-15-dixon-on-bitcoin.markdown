@@ -3,7 +3,7 @@ layout: quote
 title:  "Dixon on Bitcoin"
 date:   2014-01-15 11:35:00
 categories: posts quotes
-tags: ["bitcoin"]
+tags: ["cryptocurrency", "bitcoin"]
 source: "Chris Dixon / Robert McMillan"
 link: http://www.wired.com/wiredenterprise/2014/01/chrisdixon/
 ---
