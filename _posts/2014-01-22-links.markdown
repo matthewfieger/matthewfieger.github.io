@@ -1,15 +1,10 @@
 ---
-layout: default
-title:
+layout: post
+title:  "Links"
+date:   2014-01-16 10:47:42
+categories: posts links
+tags:
 ---
-
-<h2>Links</h2>
-  <span class="label label-primary">posts</span>
-  <span class="label label-primary">links</span>
-
-<p class="meta">07 Jan 2014</p>
-<div class="post">
-  <p>
 
 <a target="_blank" href="http://www.aljazeera.com/news/middleeast/">Al-Jazeera-English</a><br />
 <a target="_blank" href="http://www.bbc.co.uk/news/world/">BBC</a><br />
@@ -36,7 +31,3 @@ title:
 <a target="_blank" href="http://www.livestation.com/ar/channels/aljazeera-arabic">الجزيرة مباشرة</a><br />
 <a target="_blank" href="http://www.aljazeera.net/portal">الجزيرة</a><br />
 <a target="_blank" href="http://www.alarabiya.net/default.html">العربية.نت</a>
-
-  </p>
-</div>
-
