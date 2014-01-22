@@ -14,7 +14,7 @@ Jekyll is a parsing engine that generates static websites.  The great thing abou
 
 In addition to hosting my code repository on Github, I will also use [Github Pages](http://pages.github.com/) to serve the site.  Github Pages seems to make a lot of sense, as it is free and claims to support fast loading via a robust global CDN.
 
-To get up and running with Jekyll I followed their official [documentation](http://jekyllrb.com/docs/home/).  This was helpful, but I did have to make a few adjustments.  Below is exactly what I did to get up and running.
+To get up and running with Jekyll I followed their official [documentation](http://jekyllrb.com/docs/home/).  This was helpful, but I did have to make a few adjustments.  Below is what I did to get up and running.
 
 Install Jekyll, create a new site, and move to the newly created site:
 
@@ -39,7 +39,8 @@ Reorganize the directory structure:
 	.
 	├── _config.yml
 	├── _drafts
-	|   ├── draft_1.markdown
+	|   ├── draft-number-1.markdown
+	|   └── draft-number-2.markdown
 	├── _includes
 	|   ├── footer.html
 	|   └── header.html
@@ -48,7 +49,8 @@ Reorganize the directory structure:
 	|   └── post.html
 	|   └── quote.html
 	├── _posts
-	|   ├── post_1.markdown
+	|   ├── YYYY-MM-DD-post-number-1.markdown
+	|   └── YYYY-MM-DD-post-number-2.markdown
 	├── assets
 	|   └── css
 	|   └── js
@@ -57,6 +59,8 @@ Reorganize the directory structure:
 	└── index.html
 	└── links.html
 	└── quotes.html
+	└── pgp.html
+	└── feed.xml
 
 
 In 'main.css', add a media query for small screens:
