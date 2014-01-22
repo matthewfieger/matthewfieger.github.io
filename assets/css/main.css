@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #428bca; }
+a         { color: #13293c; }
 a:hover   { color: #000; }
-a:visited { color: #5bc0de; }
+a:visited { color: #2d606f; }
 
 /*****************************************************************************/
 /*
@@ -74,7 +74,7 @@ a:visited { color: #5bc0de; }
 }
 
 .title a {
-  color: #cc3333;
+  color: #7a1e1e;
 }
 
 .title a:hover {
