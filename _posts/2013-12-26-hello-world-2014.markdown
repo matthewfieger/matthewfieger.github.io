@@ -1,0 +1,95 @@
+---
+layout: post
+title:  "Hello World, 2014"
+date:   2013-12-26 12:00:00
+categories: posts
+tags: ["computer science"]
+---
+
+This year I will rebuild my personal homepage using two technologies I haven't used before: [Github](https://github.com/) and [Jekyll](http://jekyllrb.com/).
+
+Github is a cloud-based hosting service for software development projects that uses the [Git](http://git-scm.com/) revision control system.  Some really exciting open-source projects are hosted on Github, including [Bootstrap](https://github.com/twbs/bootstrap), [Node](https://github.com/joyent/node), and [Meteor](https://github.com/meteor/meteor)
+
+Jekyll is a parsing engine that generates static websites.  The great thing about Jekyll is that you can build content-heavy sites without having to use a database.  This makes development a lot simpler, and allows for more flexibility in deployment.  To do this, Jekyll relies on several underlying technologies, including [YAML](http://www.yaml.org/), [Markdown](http://daringfireball.net/projects/markdown/), and [Liquid](http://liquidmarkup.org/).  Configuration settings and site variables are set using YAML, content is written in Markdown, and templating logic follows Liquid.
+
+In addition to hosting my code repository on Github, I will also use [Github Pages](http://pages.github.com/) to serve the site.  Github Pages seems to make a lot of sense, as it is free and claims to support fast loading via a robust global CDN.
+
+To get up and running with Jekyll I followed their official [documentation](http://jekyllrb.com/docs/home/).  This was helpful, but I did have to make a few adjustments.  Below is exactly what I did to get up and running.
+
+Install Jekyll, create a new site, and move to the newly created site:
+
+	~ matthewfieger $ sudo gem install jekyll
+	~ matthewfieger $ jekyll new matthewfieger
+	~ matthewfieger $ cd matthewfieger
+
+Update settings in the '_config.yml' file:
+
+	name: MatthewFieger
+	markdown: redcarpet
+	pygments: true
+
+	url: "http://0.0.0.0:4000"   # Use for local development
+	# url: "http://matthewfieger.com"   # Use for deployment
+
+	exclude: ["CNAME", "README.md"] # Exclude files or directories when building site
+
+
+Reorganize the directory structure:
+
+	.
+	├── _config.yml
+	├── _drafts
+	|   ├── draft_1.markdown
+	├── _includes
+	|   ├── footer.html
+	|   └── header.html
+	├── _layouts
+	|   ├── default.html
+	|   └── post.html
+	|   └── quote.html
+	├── _posts
+	|   ├── post_1.markdown
+	├── assets
+	|   └── css
+	|   └── js
+	|   └── data
+	├── _site
+	└── index.html
+	└── links.html
+	└── quotes.html
+
+
+In 'main.css', add a media query for small screens:
+
+	@media (max-width: 480px) {
+		 .site {
+			font-size: 100%;
+			text-align: center;
+			width: 90%;
+			margin-left: 1em;
+			margin-right: 0;
+			padding-right: 0;
+			line-height: 1.5em;
+		 }
+ 	 }
+
+
+Move the header and the footer into include files in the '_include' directory.  Update the 'default.html' layout so that it includes the head and the footer:
+
+	       {% raw %} {% include header.html %} {% endraw %}
+
+           		{% raw %} {{ content }} {% endraw %}
+
+           {% raw %} {% include footer.html %}  {% endraw %}
+
+Add some content in the '_posts' directory.  Build the site:
+
+	~ matthewfieger $ jekyll serve --watch --drafts
+	# => A development server will run at http://localhost:4000/
+	# Jekyll will watch for changes
+	# The _drafts directory will be included
+
+	~ matthewfieger $ jekyll build
+	# => A static site will be generated into ./_site directory
+
+The full source code can be found on my [Github Page](https://github.com/matthewfieger/matthewfieger.github.io).  As a newcomer, it took me most of a day to become familiar with Jekyll, YAML, Markdown and Liquid. My first impressions are positive.  I like that Jekyll is minimalistic, lightweight and fast.  In another post, I will review deploying the site with Github Pages.

@@ -2,7 +2,7 @@ name: MatthewFieger
 markdown: redcarpet
 pygments: true
 
-url: "http://matthewfieger.com"
-# url: "http://0.0.0.0:4000"
+# url: "http://matthewfieger.com" # for production
+url: "http://0.0.0.0:4000" # for staging
 
 exclude: ["CNAME", "README.md"]
