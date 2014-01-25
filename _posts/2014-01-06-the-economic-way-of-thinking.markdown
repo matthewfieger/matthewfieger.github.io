@@ -2,7 +2,7 @@
 layout: post
 title:  "The Economic Way of Thinking"
 date:   2014-01-06 16:15:05
-categories: posts
+categories: posts me
 tags: ["economics"]
 ---
 

@@ -5,7 +5,7 @@ date:   2014-01-07 18:48:00
 categories: posts quotes
 tags: ["economics", "healthcare"]
 source: "John H. Cochrane"
-link: http://online.wsj.com/news/articles/SB10001424052702304866904579265932490593594
+reference: http://online.wsj.com/news/articles/SB10001424052702304866904579265932490593594
 ---
 
 The U.S. health-care market is dysfunctional...The reason is simple: Health care and health insurance are strongly protected from competition...</blockquote>

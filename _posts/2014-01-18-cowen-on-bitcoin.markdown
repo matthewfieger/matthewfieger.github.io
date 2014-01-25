@@ -5,7 +5,7 @@ date:   2014-01-18 09:41:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin"]
 source: "Tyler Cowen"
-link: http://marginalrevolution.com/marginalrevolution/2013/12/how-and-why-bitcoin-will-plummet-in-price.html
+reference: http://marginalrevolution.com/marginalrevolution/2013/12/how-and-why-bitcoin-will-plummet-in-price.html
 ---
 
 Now, theoretically, you might believe that the current price of Bitcoin already reflects exactly those marketing costs of potential competitors and thus the current equilibrium is stable or semi-stable.  Maybe so, but I doubt that.  The current value of outstanding Bitcoin is about $20 billion or so, and it doesn’t seem it cost nearly that much to launch the idea.  And now that we know cryptocurrencies can in some way “work,” it seems marketing a competitor might be easier yet...

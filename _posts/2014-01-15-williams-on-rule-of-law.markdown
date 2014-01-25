@@ -5,7 +5,7 @@ date:   2014-01-15 11:27:00
 categories: posts quotes
 tags: ["economics", "rule of law"]
 source: "Walter E. Williams"
-link: http://www.fee.org/the_freeman/detail/rule-of-law-versus-legislative-orders
+reference: http://www.fee.org/the_freeman/detail/rule-of-law-versus-legislative-orders
 ---
 
 ...Laws, or rules that govern a free society, should have similar features. There should be a “rule of law.” The rule of law means laws are certain and known in advance. Laws envision no particular outcome except that of allowing people to peaceably pursue their own objectives. Finally, and most important, laws are equally applied to everyone, including government officials...

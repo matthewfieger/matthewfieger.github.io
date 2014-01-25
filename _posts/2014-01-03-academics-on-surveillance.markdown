@@ -5,7 +5,7 @@ date:   2014-01-03 04:36:29
 categories: posts quotes
 tags: ["politics", "surveillance"]
 source: "Academics Against Mass Surveillance"
-link: http://www.academicsagainstsurveillance.net/
+reference: http://www.academicsagainstsurveillance.net/
 ---
 
 Intelligence agencies monitor people's Internet use, obtain their phone calls, email messages, Facebook entries, financial details, and much more. Agencies have also gathered personal information by accessing the internal data flows of firms such as Google and Yahoo. Skype calls are "readily available" for interception. Agencies have purposefully weakened encryption standards - the same techniques that should protect our online banking and our medical files. These are just a few examples from recent press reports. In sum: the world is under an unprecedented level of surveillance...

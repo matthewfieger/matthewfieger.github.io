@@ -5,7 +5,7 @@ date:   2013-12-31 12:37:54
 categories: posts quotes
 tags: ["politics", "surveillance", "edward snowden"]
 source: "Edward Snowden"
-link: http://www.theguardian.com/world/2013/dec/17/edward-snowden-letter-brazilian-people
+reference: http://www.theguardian.com/world/2013/dec/17/edward-snowden-letter-brazilian-people
 ---
 
 ...At the NSA, I witnessed with growing alarm the surveillance of whole populations without any suspicion of wrongdoing, and it threatens to become the greatest human rights challenge of our time. The NSA and other spying agencies tell us that for our own "safety" — for Dilma's "safety," for Petrobras' "safety" — they have revoked our right to privacy and broken into our lives. And they did it without asking the public in any country, even their own...

@@ -5,7 +5,7 @@ date:   2014-01-18 09:34:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin"]
 source: "Robert Sams"
-link: http://cryptonomics.org/2014/01/15/the-marginal-cost-of-cryptocurrency/
+reference: http://cryptonomics.org/2014/01/15/the-marginal-cost-of-cryptocurrency/
 ---
 
 I would count myself in the camp who believe that cryptocurrencies could do to finance what TCP/IP did to communications. Yet I also believe that Bitcoin and most of its current variations suffer from a fatal economic design flaw that will not survive the evolution of cryptocurrencies. That flaw is logarithmic money supply growth...

@@ -5,7 +5,7 @@ date:   2014-01-07 18:10:00
 categories: posts quotes
 tags: ["politics", "surveillance"]
 source: "John F. Kennedy"
-link: http://www.jfklibrary.org/Research/Research-Aids/JFK-Speeches/American-Newspaper-Publishers-Association_19610427.aspx
+reference: http://www.jfklibrary.org/Research/Research-Aids/JFK-Speeches/American-Newspaper-Publishers-Association_19610427.aspx
 ---
 
 ...The very word "secrecy" is repugnant in a free and open society; and we are as a people inherently and historically opposed to secret societies, to secret oaths and to secret proceedings. We decided long ago that the dangers of excessive and unwarranted concealment of pertinent facts far outweighed the dangers which are cited to justify it. Even today, there is little value in opposing the threat of a closed society by imitating its arbitrary restrictions. Even today, there is little value in insuring the survival of our nation if our traditions do not survive with it. And there is very grave danger that an announced need for increased security will be seized upon by those anxious to expand its meaning to the very limits of official censorship and concealment. That I do not intend to permit to the extent that it is in my control. And no official of my Administration, whether his rank is high or low, civilian or military, should interpret my words here tonight as an excuse to censor the news, to stifle dissent, to cover up our mistakes or to withhold from the press and the public the facts they deserve to know...

@@ -5,7 +5,7 @@ date:   2014-01-09 09:59:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin", "finance"]
 source: "Eli Dourado"
-link: http://theumlaut.com/2014/01/08/bitcoin-internet-of-money/
+reference: http://theumlaut.com/2014/01/08/bitcoin-internet-of-money/
 ---
 
 It is true that Bitcoin can substitute for other currencies, but as with the Internet, the abstraction of a permissionless application layer means that it is much more than a substitute: it is like a transport layer for finance...

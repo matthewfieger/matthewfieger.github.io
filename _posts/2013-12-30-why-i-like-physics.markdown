@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I Like Physics"
 date:   2013-12-30 14:55:04
-categories: posts
+categories: posts me
 tags: ["physics"]
 ---
 

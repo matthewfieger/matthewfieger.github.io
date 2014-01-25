@@ -5,7 +5,7 @@ date:   2014-01-07 12:58:57
 categories: posts quotes
 tags: ["economics", "liberty"]
 source: "Michael Munger"
-link: http://www.fee.org/the_freeman/detail/what-are-we-for
+reference: http://www.fee.org/the_freeman/detail/what-are-we-for
 ---
 
 In 1831 French historian and politician Alexis de Tocqueville published Democracy in America, a memoir of his travels in the United States. It could have been called How Americans Get Things Done. Tocqueville marveled at how Americans worked together privately to solve civic problems.

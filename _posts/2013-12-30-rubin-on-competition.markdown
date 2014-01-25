@@ -5,7 +5,7 @@ date:   2013-12-30 14:10:37
 categories: posts quotes
 tags: ["economics", "competition"]
 source: "Paul H. Rubin"
-link: http://online.wsj.com/news/articles/SB10001424052702303562904579228020205294840
+reference: http://online.wsj.com/news/articles/SB10001424052702303562904579228020205294840
 ---
 
 The "competitive economy" would be better described as the "cooperative economy."

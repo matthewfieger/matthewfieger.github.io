@@ -5,7 +5,7 @@ date:   2013-12-30 10:15:02
 categories: posts quotes
 tags: ["design thinking", "narratives"]
 source: "Henrik Kniberg"
-link: http://dl.dropboxusercontent.com/u/1018963/Articles/HowSpotifyBuildsProducts.pdf
+reference: http://dl.dropboxusercontent.com/u/1018963/Articles/HowSpotifyBuildsProducts.pdf
 ---
 
 The most important part of the product definition is the narrative. What story are we going to tell the world?

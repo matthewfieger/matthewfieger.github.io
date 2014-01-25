@@ -5,7 +5,7 @@ date:   2013-12-30 11:40:24
 categories: posts quotes
 tags: ["design thinking", "empathy"]
 source: "Nicole Perlroth"
-link: http://www.nytimes.com/2013/12/30/technology/solving-problems-for-real-world-using-design.html
+reference: http://www.nytimes.com/2013/12/30/technology/solving-problems-for-real-world-using-design.html
 ---
 
 While the projects had wildly different end products, they both had a similar starting point: focusing on how to ease people’s lives. And that is a central lesson at the school, which is pushing students to rethink the boundaries for many industries.

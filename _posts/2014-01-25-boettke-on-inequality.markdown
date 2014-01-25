@@ -5,7 +5,7 @@ date:   2014-01-25 10:35:00
 categories: posts quotes
 tags: ["economics", "inequality", "liberalism", "democracy"]
 source: "Peter Boettke"
-link: http://www.coordinationproblem.org/2014/01/the-market-may-be-color-blind-but-politics-isnt-race-class-and-economic-opportunity.html
+reference: http://www.coordinationproblem.org/2014/01/the-market-may-be-color-blind-but-politics-isnt-race-class-and-economic-opportunity.html
 ---
 
 Liberalism seeks to establish constitutional rules of governance and design institutional structures precisely to realize a social order that permits neither discrimination nor dominion.  In all of these discussions, I believe, it is important to stress as Hayek did, that democracy must be subordinate to LIBERALISM, whereas the modern state is defined by a quest for liberalism within DEMOCRACY.  As long as the modern political situation remains, the quest to achieve a social order that is neither discriminatory nor permits the dominion of some over others will be in vain.

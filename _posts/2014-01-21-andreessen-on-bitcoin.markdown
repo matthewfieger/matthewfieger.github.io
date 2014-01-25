@@ -5,7 +5,7 @@ date:   2014-01-21 13:38:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin"]
 source: "Marc Andreessen"
-link: http://dealbook.nytimes.com/2014/01/21/why-bitcoin-matters/
+reference: http://dealbook.nytimes.com/2014/01/21/why-bitcoin-matters/
 ---
 
 Bitcoin is the first practical solution to a longstanding problem in computer science called the Byzantine Generals Problem...The practical consequence of solving this problem is that Bitcoin gives us, for the first time, a way for one Internet user to transfer a unique piece of digital property to another Internet user, such that the transfer is guaranteed to be safe and secure, everyone knows that the transfer has taken place, and nobody can challenge the legitimacy of the transfer. The consequences of this breakthrough are hard to overstate.

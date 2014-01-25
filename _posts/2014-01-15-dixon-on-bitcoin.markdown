@@ -5,7 +5,7 @@ date:   2014-01-15 11:35:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin"]
 source: "Chris Dixon / Robert McMillan"
-link: http://www.wired.com/wiredenterprise/2014/01/chrisdixon/
+reference: http://www.wired.com/wiredenterprise/2014/01/chrisdixon/
 ---
 
 To Dixon, bitcoin had a mix of elements that he’d seen before in other technologies before they made it big, including the Linux open source operating system or, well, the internet itself.

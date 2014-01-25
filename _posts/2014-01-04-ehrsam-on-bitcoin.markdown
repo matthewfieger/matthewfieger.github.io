@@ -5,7 +5,7 @@ date:   2014-01-04 17:49:09
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin", "payments"]
 source: "Fred Ehrsam"
-link: http://recode.net/2014/01/02/bitcoin-is-good/
+reference: http://recode.net/2014/01/02/bitcoin-is-good/
 ---
 
 Approaching bitcoin as a currency or store of value is focusing on a single and secondary application of the bitcoin network (analogous to analyzing a single feature built on top of the Internet, like email). The first application of the network which has gained broad adoption is payments, where it can be easily demonstrated that real money is being saved by harnessing the efficiency of the network. Since one must acquire bitcoin to use the bitcoin network, this has given bitcoin as a currency value as a secondary effect...
