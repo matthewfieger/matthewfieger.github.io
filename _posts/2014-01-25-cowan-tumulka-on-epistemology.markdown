@@ -14,6 +14,6 @@ The very idea of a limitation to knowledge may seem to go against the principles
 
 However, the existence of limitations to knowledge is a fact, as it is a simple consequence of quantum mechanics, independently of which interpretation of quantum mechanics we prefer.
 
-These limitations to knowledge arise as a consequence of the de fining equations of the theories. They are not further, ad hoc postulates; and they do not require carefully contrived, or conspiratorial, initial conditions. Instead, they are dictated by the physical laws.
+These limitations to knowledge arise as a consequence of the defining equations of the theories. They are not further, ad hoc postulates; and they do not require carefully contrived, or conspiratorial, initial conditions. Instead, they are dictated by the physical laws.
 
 What is upsetting about limitations to knowledge is that they conflict with key ideas of (what may be called) positivism: That a statement is unscienti c or even meaningless if it cannot be tested experimentally, that an object is not real if it cannot be observed, and that a variable is not well-de fined if it cannot be measured. We conclude that this form of positivism is exaggerated; it is inadequate.
