@@ -1,9 +1,9 @@
 ---
 layout: quote
-title:  "Learn to Code"
+title:  "Sarah on Learning to Code"
 date:   2014-01-02 10:04:42
 categories: posts quotes
-tags: ["computer science", "programming"]
+tags: ["programming", "learn to code"]
 source: "Sarah"
 reference: http://www.ultrasaurus.com/2013/12/code-computer-science/
 ---
