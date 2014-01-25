@@ -11,7 +11,9 @@ layout: rss-feed
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <categories>{% for category in post.categories %}{{ category }}, {% endfor %}</categories>
+        <tags>{% for tag in post.tags %}{{ tag }}, {% endfor %}</tags>
+        <content>{{ post.content | xml_escape }}</content>
         <published>{{ post.date }}</published>
         <source>{{ post.source}}</source>
         <reference>{{ post.reference }}</reference>

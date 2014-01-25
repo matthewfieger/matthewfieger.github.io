@@ -14,9 +14,9 @@ Jekyll is a parsing engine that generates static websites.  The great thing abou
 
 In addition to hosting my code repository on Github, I will also use [Github Pages](http://pages.github.com/) to serve the site.  Github Pages seems to make a lot of sense, as it is free and claims to support fast loading via a robust global CDN.
 
-To get up and running with Jekyll I followed their official [documentation](http://jekyllrb.com/docs/home/).  This was helpful, but I did have to make a few adjustments.  Below is what I did to get up and running.
+To get up and running with Jekyll I followed their official [documentation](http://jekyllrb.com/docs/home/).  This was helpful, but I did have to make a few adjustments.  I'm running OSX 10.9.1 and Ruby 2.0.0p247.  Below is what I did to get up and running.
 
-Install Jekyll, create a new site, and move to the newly created site:
+Install Jekyll 1.4.2, create a new site, and move to the newly created site:
 
 	~ matthewfieger $ sudo gem install jekyll
 	~ matthewfieger $ jekyll new matthewfieger
@@ -43,6 +43,7 @@ Reorganize the directory structure:
 	|   └── draft-number-2.markdown
 	├── _includes
 	|   ├── footer.html
+	|   ├── head.html
 	|   └── header.html
 	├── _layouts
 	|   ├── default.html
@@ -56,10 +57,10 @@ Reorganize the directory structure:
 	|   └── js
 	|   └── data
 	├── _site
-	└── index.html
-	└── links.html
-	└── quotes.html
-	└── pgp.html
+	├── index.html
+	├── links.html
+	├── quotes.html
+	├── pgp.html
 	└── feed.xml
 
 
