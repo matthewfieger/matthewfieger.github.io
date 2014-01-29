@@ -2,7 +2,11 @@
 layout: post
 ---
 
-<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">write/s:</a></p>
+{% if page.source contains 'and' %}
+<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">write:</a></p>
+{% else %}
+<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">writes:</a></p>
+{% endif %}
 
 <blockquote>
 {{ content }}
