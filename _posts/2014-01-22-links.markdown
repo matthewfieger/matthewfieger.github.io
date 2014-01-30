@@ -12,6 +12,7 @@ tags:
 <a target="_blank" href="http://www.cafehayek.com/">Cafe-Hayek</a><br />
 <a target="_blank" href="http://www.calculatedriskblog.com/">Calculated-Risk</a><br />
 <a target="_blank" href="http://www.coordinationproblem.org/">Coordination Problem</a><br />
+<a target="_blank" href="http://www.hoover.org/publications/defining-ideas/libertarian-archives">Defining Ideas</a><br />
 <a target="_blank" href="http://econlog.econlib.org/">EconLog</a><br />
 <a target="_blank" href="http://www.feynmanlectures.caltech.edu/">Feynman-Lectures</a><br />
 <a target="_blank" href="http://johnhcochrane.blogspot.com/">The Grumpy Economist</a><br />
