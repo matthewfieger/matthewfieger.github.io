@@ -16,7 +16,7 @@ tags:
 <a target="_blank" href="http://econlog.econlib.org/">EconLog</a><br />
 <a target="_blank" href="http://www.feynmanlectures.caltech.edu/">Feynman-Lectures</a><br />
 <a target="_blank" href="http://johnhcochrane.blogspot.com/">The Grumpy Economist</a><br />
-<a target="_blank" href="https://news.ycombinator.com/news">HN</a><br />
+<a target="_blank" href="https://news.ycombinator.com/news">Hacker News</a><br />
 <a target="_blank" href="http://mungowitzend.blogspot.com/">Kids Prefer Cheese</a><br />
 <a target="_blank" href="http://marginalrevolution.com/">Marginal-Revolution</a><br />
 <a target="_blank" href="http://www.marketwatch.com/">Market-Watch</a><br />
