@@ -4,8 +4,12 @@ title:  "Hayek on Religion"
 date:   2014-01-30 18:51:00
 categories: posts books quotes
 tags: ["economics", "religion", "hayek"]
-Author: "F.A. Hayek"
-reference: "The Fatal Conceit"
+source: "F.A. Hayek"
+reference:
+  - Title: "The Fatal Conceit: The Errors of Socialism"
+  - Author: "F.A. Hayek"
+  - Pages: "125-127"
+  - Publisher: "Taylor and Francis. Kindle Edition."
 ---
 
 On religion, Hayek writes:
@@ -18,6 +22,14 @@ On religion, Hayek writes:
 
 > If we bear these things in mind, we can better understand and appreciate those clerics who are said to have become somewhat sceptical of the validity of some of their teachings and who yet continued to teach them because they feared that a loss of faith would lead to a decline of morals. No doubt they were right; and even an agnostic ought to concede that we owe our morals, and the tradition that has provided not only our civilisation but our very lives, to the acceptance of such scientifically unacceptable factual claims.
 
-<small>Hayek, F.A. (2013-10-28).<br />
-The Fatal Conceit: The Errors of Socialism (The Collected Works of F.A. Hayek) (pgs. 125-27).<br />
-Taylor and Francis. Kindle Edition.</small>
+Hayek echoes the thinking of both Émile Durkheim and Adam Smith.  Durkheim argued that, "Religion gave birth to all that is essential in the society," and Smith argued that, "Religion, even in its crudest form, gave a sanction to the rules of morality long before the age of artificial reasoning and philosophy."
+
+
+{% comment %}
+
+	{{ page.reference[0].Title }}
+	{{ page.reference[1].Author }}
+	{{ page.reference[2].Pages }}
+	{{ page.reference[3].Publisher }}
+
+{% endcomment %}

@@ -12,7 +12,7 @@ In 1831 French historian and politician Alexis de Tocqueville published Democrac
 
 He was no fan of majority rule. The problem with political democracy, he said, is that citizens are isolated and “enfeebled.” They can do hardly anything by themselves, and they can’t force others to help them. He admired the American solution to this problem: Organize into private groups, and leave government out of it. As Tocqueville put it:
 
-They all, therefore, become powerless if they do not learn voluntarily to help one another. If men living in democratic countries had no right and no inclination to associate for political purposes, their independence would be in great jeopardy, but they might long preserve their wealth and their cultivation: whereas if they never acquired the habit of forming associations in ordinary life, civilization itself would be endangered.
+> They all, therefore, become powerless if they do not learn voluntarily to help one another. If men living in democratic countries had no right and no inclination to associate for political purposes, their independence would be in great jeopardy, but they might long preserve their wealth and their cultivation: whereas if they never acquired the habit of forming associations in ordinary life, civilization itself would be endangered.
 
 When libertarians seem to be “against” everything, this is what we are worried about. If citizens ignored politics, things wouldn’t be so bad. But we are worried that our excessive focus on politics will cause us to ignore society and each other. If we fail to connect as social beings in complex reciprocal exchange relations, modern “democratic” life becomes anomic and mean, just as Tocqueville foresaw.
 
