@@ -3,7 +3,7 @@ layout: post
 title:  "Hayek on Value"
 date:   2014-01-28 18:49:00
 categories: posts books quotes
-tags: ["economics", "value"]
+tags: ["economics", "value", "hayek"]
 Author: "F.A. Hayek"
 reference: "The Fatal Conceit"
 ---
