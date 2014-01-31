@@ -12,7 +12,7 @@ On religion, Hayek writes:
 
 > How can such a thing [as the extended order] have happened? How could traditions which people do not like or understand, whose effects they usually do not appreciate and can neither see nor foresee, and which they are still ardently combating, continue to have been passed on from generation to generation?
 
-> Part of the answer is of course the one with which we began, the evolution of moral orders through group selection: groups that behave in these ways simply survive and increase. But this cannot be the whole story . If not from an understanding of their beneficial effect in creating an as-yet unimaginable extended order of cooperation, whence did such rules of conduct originate? More important, how were they preserved against the strong opposition of instinct and, more recently, from the assaults of reason? Here we come to religion.
+> Part of the answer is of course the one with which we began, the evolution of moral orders through group selection: groups that behave in these ways simply survive and increase. But this cannot be the whole story. If not from an understanding of their beneficial effect in creating an as-yet unimaginable extended order of cooperation, whence did such rules of conduct originate? More important, how were they preserved against the strong opposition of instinct and, more recently, from the assaults of reason? Here we come to religion.
 
 > The religious view that morals were determined by processes incomprehensible to us may at any rate be truer (even if not exactly in the way intended) than the rationalist delusion that man, by exercising his intelligence, invented morals that gave him the power to achieve more than he could ever foresee.
 
