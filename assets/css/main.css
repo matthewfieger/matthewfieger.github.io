@@ -170,17 +170,17 @@ a:visited { color: #13293c; }
 /*
 /*****************************************************************************/
 
-  blockquote p { 
-    width: 470px; 
-    margin-left: 20px; 
+  blockquote p {
+    width: 470px;
+    margin-left: 20px;
     padding-left: 10px;
     border-left: 1px solid #ccc;
     color: #222;
     /* This is the quote mark in the left corner (also, the only image
     in this theme). Remove if you don't want it. */
-    /*background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png) 
+    /*background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png)
       top left no-repeat; */
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   /* Make nested blockquotes behave. */
@@ -210,91 +210,6 @@ a:visited { color: #13293c; }
 
 #refresh-small {
   display: none;
-}
-
-
-
-/*****************************************************************************/
-/*
-/* Labals - Bootstrap
-/*
-/*****************************************************************************/
-
-.label-default {
-	background-color: #999;
-}
-
-.label-primary {
-  background-color: #428bca;
-}
-
-.label-success {
-  background-color: #5cb85c;
-}
-
-.label-info {
-  background-color: #5bc0de;
-}
-
-.label-warning {
-  background-color: #f0ad4e;
-}
-
-.label-danger {
-  background-color: #d9534f;
-}
-
-.label {
-	display: inline;
-	padding: .2em .6em .3em;
-	font-size: 75%;
-	font-weight: bold;
-	line-height: 1;
-	color: #fff;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: baseline;
-	border-radius: .25em;
-}
-
-
-/*****************************************************************************/
-/*
-/* Button - Bootstrap
-/*
-/*****************************************************************************/
-
-.btn-xs {
-  padding: 1px 5px;
-  font-size: 8px;
-  line-height: 1.5;
-  border-radius: 3px;
-  margin-left: 5px;
-}
-.btn-primary {
-  color: #fff;
-  background-color: #428bca;
-  border-color: #357ebd;
-}
-.btn {
-  display: inline-block;
-  /* padding: 6px 12px; */
-  margin-bottom: 0;
-  /* font-size: 14px; */
-  font-weight: normal;
-  /* line-height: 1.428571429; */
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  /* border-radius: 4px; */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
 
 /*****************************************************************************/
@@ -353,7 +268,6 @@ a:visited { color: #13293c; }
 }
 
 
-
 /*****************************************************************************/
 /*
 /* Responsive
@@ -377,9 +291,9 @@ a:visited { color: #13293c; }
     white-space: nowrap;
   }
 
-  blockquote { 
-    width: 100%; 
-    margin-left: 0; 
+  blockquote {
+    width: 100%;
+    margin-left: 0;
     padding-left: 1em;
   }
 
