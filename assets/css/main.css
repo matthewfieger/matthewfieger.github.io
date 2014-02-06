@@ -170,17 +170,17 @@ a:visited { color: #13293c; }
 /*
 /*****************************************************************************/
 
-  blockquote p { 
-    width: 470px; 
-    margin-left: 20px; 
+  blockquote p {
+    width: 470px;
+    margin-left: 20px;
     padding-left: 10px;
     border-left: 1px solid #ccc;
     color: #222;
     /* This is the quote mark in the left corner (also, the only image
     in this theme). Remove if you don't want it. */
-    /*background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png) 
+    /*background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png)
       top left no-repeat; */
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   /* Make nested blockquotes behave. */
@@ -297,62 +297,6 @@ a:visited { color: #13293c; }
   user-select: none;
 }
 
-/*****************************************************************************/
-/*
-/* Nav - Not Currently in Use
-/*
-/*****************************************************************************/
-
-.navigation {
-  position: fixed;
-  top: 50px;
-  margin-left: -150px; }
-  .navigation .holder {
-    width: 50px;
-    height: 50px;
-    background: #2c3e50;
-    color: white;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    padding: 14px 7px;
-    font-size: 18px;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; }
-    .navigation .holder .nav {
-      display: none;
-      padding-top: 5px; }
-      .navigation .holder .nav a {
-        font-size: 0.8em;
-        color: white;
-        text-decoration: none;
-        border: none; }
-    .navigation .holder:hover {
-      height: 140px;
-      width: 100px;
-      -webkit-transition: all 0.2s ease-in;
-      -moz-transition: all 0.2s ease-in;
-      -ms-transition: all 0.2s ease-in;
-      -o-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in; }
-      .navigation .holder:hover .nav {
-        display: block; }
-
-@media screen and (max-width: 480px) {
-  .navigation {
-    position: absolute;
-    right: 20px;
-    top: -10px;
-    left: initial;
-    width: 100%;
-	}
-}
-
-
 
 /*****************************************************************************/
 /*
@@ -377,9 +321,9 @@ a:visited { color: #13293c; }
     white-space: nowrap;
   }
 
-  blockquote { 
-    width: 100%; 
-    margin-left: 0; 
+  blockquote {
+    width: 100%;
+    margin-left: 0;
     padding-left: 1em;
   }
 
