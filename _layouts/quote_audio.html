@@ -1,0 +1,15 @@
+---
+layout: post
+---
+
+{% if page.source contains 'and' %}
+<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">say:</a></p>
+{% else %}
+<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">says:</a></p>
+{% endif %}
+
+<blockquote>
+{{ content }}
+</blockquote>
+
+Listen to more here <a target="_blank" href="{{ page.reference }}">here</a>.
