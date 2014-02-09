@@ -1,0 +1,15 @@
+---
+layout: default
+title:
+---
+
+<div id="home">
+
+	<p>Welcome to my homepage.  For the most part, I post links and quotes to content that I find thought provoking.  Once and a while, I will write my own post.  Here is list of topics that I have posted on:</p>
+    {% for post in site.posts %}
+      {% for tag in post.tags %}
+        <span class="label label-primary">{{ tag }}</span>
+      {% endfor %}
+    {% endfor %}
+
+</div> <!-- /#home -->
