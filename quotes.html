@@ -2,17 +2,20 @@
 layout: default
 title:
 ---
-
 <span id="shuffle">
-  <h2>
-  Quotes
-  <br id="refresh-small">
-  <button type="button" class="btn btn-primary btn-xs">click to shuffle</button>
-  </h2>
+  <div class="list-group">
+    <a href="#"class="list-group-item active">
+    <span class="glyphicon glyphicon-random" style="padding-right: 8px;"></span>
+    Shuffle
+    </a>
+  </div>
 </span>
 
+
+
 <br />
-<div id="quotes" class="quotes">
+<div id="quotes" class="row quotes col-sm-12">
+
 </div>
 
 <script>
@@ -36,7 +39,7 @@ $(function() {
       	// Access the key and the value of each object in the "quotes" array.
       	// The key == the source of the quote and the value == the content of the quote.
         // Appends these values to the #quotes div
-        $("#quotes").append("<div class=\"quote\"> <p>" + value + "</p> <span class=\"quotes-source\">-  " + key + "</span> <br /><br /><br /> </div>");
+        $("#quotes").append("<div class=\"quote\"> <blockquote>" + value + "</blockquote> <span class=\"quotes-source pull-right\">-  " + key + "</span> <br /><br /><br /> </div>");
       });
     });
   });
