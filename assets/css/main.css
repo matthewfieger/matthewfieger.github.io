@@ -1,6 +1,6 @@
 /*****************************************************************************/
 /*
-/* Common
+/* Jekyll
 /*
 /*****************************************************************************/
 
@@ -14,9 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,104 +23,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #13293c; }
-a:hover   { color: #000; }
-a:visited { color: #13293c; }
+
 
 /*****************************************************************************/
 /*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts li {
-  line-height: 1.75em;
-}
-
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
-/* Site
+/* Container
 /*
 /*****************************************************************************/
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #7a1e1e;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
-
-.meta {
-  color: #aaa;
-}
-
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .links {
-  float: right;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
 }
 
 /*****************************************************************************/
@@ -163,167 +75,50 @@ a:visited { color: #13293c; }
   background-color: #333;
 }
 
+/*****************************************************************************/
+/*
+/* Blockquote
+/*
+/*****************************************************************************/
+
+blockquote {
+  font-size: 100%;
+}
+
 
 /*****************************************************************************/
 /*
-/* Blockquotes - Aaron Schwartz
+/* Footer
 /*
 /*****************************************************************************/
 
-  blockquote p {
-    width: 470px;
-    margin-left: 20px;
-    padding-left: 10px;
-    border-left: 1px solid #ccc;
-    color: #222;
-    /* This is the quote mark in the left corner (also, the only image
-    in this theme). Remove if you don't want it. */
-    /*background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png)
-      top left no-repeat; */
-    margin-top: 0;
-  }
-
-  /* Make nested blockquotes behave. */
-  blockquote blockquote { margin-left: 0; }
-  /* ems in blockquotes look like normal text. Could be confusing; should work
-     fine unless there is a giant em block at the end of the blockquote, or
-     worse, making up the whole blockquote. Remove if you don't want to take
-     that risk, but instead suffer from a lack of distinguished emphasis in
-     blockquotes. */
-  blockquote em { font-style: normal; }
-  blockquote ul, blockquote ol { padding-left: 2em; }
-
-.quotes {
-  font-size: smaller;
-  width: 500px;
-  margin-left: 20px;
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
 }
 
-.quotes p {
-    border-left: 1px solid #ccc;
-    padding-left: 10px;
+.footer .contact {
+  float: left;
+  margin-right: 3em;
 }
-.quotes-source {
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .links {
   float: right;
-  font-weight: bold;
 }
 
-#refresh-small {
-  display: none;
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
 }
 
-/*****************************************************************************/
-/*
-/* Nav - Not Currently in Use
-/*
-/*****************************************************************************/
-
-.navigation {
-  position: fixed;
-  top: 50px;
-  margin-left: -150px; }
-  .navigation .holder {
-    width: 50px;
-    height: 50px;
-    background: #2c3e50;
-    color: white;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    padding: 14px 7px;
-    font-size: 18px;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; }
-    .navigation .holder .nav {
-      display: none;
-      padding-top: 5px; }
-      .navigation .holder .nav a {
-        font-size: 0.8em;
-        color: white;
-        text-decoration: none;
-        border: none; }
-    .navigation .holder:hover {
-      height: 140px;
-      width: 100px;
-      -webkit-transition: all 0.2s ease-in;
-      -moz-transition: all 0.2s ease-in;
-      -ms-transition: all 0.2s ease-in;
-      -o-transition: all 0.2s ease-in;
-      transition: all 0.2s ease-in; }
-      .navigation .holder:hover .nav {
-        display: block; }
-
-@media screen and (max-width: 480px) {
-  .navigation {
-    position: absolute;
-    right: 20px;
-    top: -10px;
-    left: initial;
-    width: 100%;
-	}
-}
-
-
-/*****************************************************************************/
-/*
-/* Responsive
-/*
-/*****************************************************************************/
-
-@media (max-width: 480px) {
-
-  .site {
-    font-size: 100%;
-    text-align: center;
-    width: 90%;
-    margin-left: 1em;
-    margin-right: 0;
-    padding-right: 0;
-    line-height: 1.5em;
-  }
-
-  #home {
-    text-align: left;
-    white-space: nowrap;
-  }
-
-  blockquote {
-    width: 100%;
-    margin-left: 0;
-    padding-left: 1em;
-  }
-
-  /* Make nested blockquotes behave. */
-  blockquote blockquote { margin-left: 0; }
-  /* ems in blockquotes look like normal text. Could be confusing; should work
-     fine unless there is a giant em block at the end of the blockquote, or
-     worse, making up the whole blockquote. Remove if you don't want to take
-     that risk, but instead suffer from a lack of distinguished emphasis in
-     blockquotes. */
-  blockquote em { font-style: normal; }
-  blockquote ul, blockquote ol { padding-left: 2em; }
-
-  .quotes {
-    font-size: smaller;
-    width: 100%;
-    margin-left: 1em;
-  }
-
-  .quotes-source {
-    float: none;
-  }
-
-  .footer .contact {
-    float: none;
-    margin-right: inherit;
-  }
-
-  .footer .links {
-    float: none;
-  }
-
+.footer .rss img {
+  border: 0;
 }

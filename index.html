@@ -3,12 +3,18 @@ layout: default
 title:
 ---
 
-<div id="home">
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<ul class="list-group">
+{% for post in paginator.posts %}
+  <li class="list-group-item">
+    <span class="badge hidden">{{ post.tags[0] }}</span>
+    <span>{{ post.date | date_to_string }}</span> &raquo;
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+
+<!-- Pagination -->
 
   {% if paginator.total_pages > 1 %}
   <ul class="pagination">
@@ -31,4 +37,3 @@ title:
     {% endif %}
   </ul>  <!-- /.pagination -->
   {% endif %}
-</div> <!-- /#home -->

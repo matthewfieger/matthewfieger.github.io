@@ -2,10 +2,10 @@ name: MatthewFieger
 markdown: redcarpet
 pygments: true
 
-# url: "http://matthewfieger.com" # for production
-url: "http://0.0.0.0:4000" # for staging
+url: "http://matthewfieger.com" # for production
+# url: "http://0.0.0.0:4000" # for staging
 
 exclude: ["CNAME", "README.md"] # exclude files from site build
 
-paginate: 15 # maximum number of posts you’d like to be displayed per page
+paginate: 10 # maximum number of posts you’d like to be displayed per page
 paginate_path: "blog/page:num" # specify where the destination of the pagination pages
