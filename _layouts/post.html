@@ -3,8 +3,11 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 
+
 {% for category in page.categories %}
-  <span class="label label-primary">{{ category }}</span>
+  {% if category != "posts" %}
+    <span class="label label-primary">{{ category }}</span>
+  {% endif %}
 {% endfor %}
 
 {% for tag in page.tags %}
