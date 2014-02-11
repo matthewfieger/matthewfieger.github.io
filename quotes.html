@@ -42,7 +42,7 @@ $(function() {
       	// Access the key and the value of each object in the "quotes" array.
       	// The key == the source of the quote and the value == the content of the quote.
         // Appends these values to the #quotes div
-        $("#quotes").append("<div class\"row quote-row\"><div class=\"quote-text\"> <p>" + value + "</p></div><div class=\"quote-source\">  <h4>" + key + "</h4> </div> </div>");
+        $("#quotes").append("<div class=\"quote-row\"> <div class\"row\"> <div class=\"quote-text\"> <p>" + value + "</p></div> <div class=\"quote-source\">  <h4>" + key + "</h4> </div> </div> </div>");
       });
     });
   });
@@ -79,7 +79,7 @@ $(function() {
 
 $( "#shuffle" ).click(function() {
   //Initialize this function when the shuffle ID is clicked.
-  $('.quote').shuffle();
+  $('.quote-row').shuffle();
     // Pass "quote" divs to the shuffle function.
 });
 

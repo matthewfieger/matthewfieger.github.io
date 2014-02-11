@@ -117,8 +117,7 @@ p {
 /*****************************************************************************/
 
 
-/* This doesn't work */
-#quote .quote-row {
+.quote-row {
   margin: 20px 0 20px 0;
 }
 
@@ -133,7 +132,7 @@ p {
 .quote-source {
   font-weight: bold;
   margin: -10px 0px 10px 0px;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 20px;
   background-color: #fdf7f7;
   color: #d9534f;
   border-left: 3px solid;
