@@ -2,14 +2,10 @@
 layout: post
 ---
 
-{% if page.source contains 'and' %}
-<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">say:</a></p>
-{% else %}
-<p>{{ page.source. }} <a target="_blank" href="{{ page.reference }}">says:</a></p>
-{% endif %}
+<p>{{ page.source. }}:</p>
 
 <blockquote>
 {{ content }}
 </blockquote>
 
-Listen to more here <a target="_blank" href="{{ page.reference }}">here</a>.
+Listen to more <a target="_blank" href="{{ page.reference }}">here</a>.

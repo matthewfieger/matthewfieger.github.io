@@ -2,18 +2,24 @@
 layout: default
 title:
 ---
-
 <span id="shuffle">
-  <h2>
-  Quotes
-  <br id="refresh-small">
-  <button type="button" class="btn btn-primary btn-xs">click to shuffle</button>
-  </h2>
+  <div class="list-group">
+    <a href="#"class="list-group-item active">
+    <span class="glyphicon glyphicon-random" style="padding-right: 8px;"></span>
+    Shuffle
+    </a>
+  </div>
 </span>
 
-<br />
-<div id="quotes" class="quotes">
-</div>
+
+
+
+<div id="quotes"></div>
+
+
+
+
+
 
 <script>
 
@@ -36,7 +42,7 @@ $(function() {
       	// Access the key and the value of each object in the "quotes" array.
       	// The key == the source of the quote and the value == the content of the quote.
         // Appends these values to the #quotes div
-        $("#quotes").append("<div class=\"quote\"> <p>" + value + "</p> <span class=\"quotes-source\">-  " + key + "</span> <br /><br /><br /> </div>");
+        $("#quotes").append("<div class=\"quote-row\"> <div class\"row\"> <div class=\"quote-text\"> <p>" + value + "</p></div> <div class=\"quote-source\">  <h4>" + key + "</h4> </div> </div> </div>");
       });
     });
   });
@@ -73,7 +79,7 @@ $(function() {
 
 $( "#shuffle" ).click(function() {
   //Initialize this function when the shuffle ID is clicked.
-  $('.quote').shuffle();
+  $('.quote-row').shuffle();
     // Pass "quote" divs to the shuffle function.
 });
 
