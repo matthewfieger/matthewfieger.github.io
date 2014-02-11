@@ -13,10 +13,13 @@ title:
 
 
 
-<br />
-<div id="quotes" class="row quotes col-sm-12">
 
-</div>
+<div id="quotes"></div>
+
+
+
+
+
 
 <script>
 
@@ -39,7 +42,7 @@ $(function() {
       	// Access the key and the value of each object in the "quotes" array.
       	// The key == the source of the quote and the value == the content of the quote.
         // Appends these values to the #quotes div
-        $("#quotes").append("<div class=\"quote\"> <blockquote>" + value + "</blockquote> <span class=\"quotes-source pull-right\">-  " + key + "</span> <br /><br /><br /> </div>");
+        $("#quotes").append("<div class\"row quote-row\"><div class=\"quote-text\"> <p>" + value + "</p></div><div class=\"quote-source\">  <h4>" + key + "</h4> </div> </div>");
       });
     });
   });
