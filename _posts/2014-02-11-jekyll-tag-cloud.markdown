@@ -43,3 +43,5 @@ We can  do this with some in-line styling.  An arbitrary number (100) can also b
 	  </span>
 	{% endfor %}
 	{% endraw %}
+	
+Note: I got the idea for this [here](http://vvv.tobiassjosten.net/jekyll/jekyll-tag-cloud/).
