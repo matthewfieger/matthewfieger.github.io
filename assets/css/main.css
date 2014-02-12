@@ -197,11 +197,12 @@ text-overflow: ellipsis;
 
 #footer {
   height: 150px; /* Set the fixed height of the footer here */
-  background-color: #f5f5f5;
 }
 
 .footer {
-  font-size: 80%;
+  font-size: 90%;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
   padding-top: 2em;
 }
 
