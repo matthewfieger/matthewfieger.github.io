@@ -4,12 +4,15 @@ title:
 ---
 
 <div id="home">
-
-	<p>Welcome to my homepage.  For the most part, I post links and quotes to content that I find thought provoking.  Once in a while, I will write my own post.  Here is list of topics that I have posted on:</p>
-    {% for post in site.posts %}
-      {% for tag in post.tags %}
-        <span class="label label-primary">{{ tag }}</span>
-      {% endfor %}
+  <h4>Hello & Welcome | اهلا وسهلا | Roj baş</h4>
+  <p>
+    Welcome to my homepage.  For the most part, I post quotes that I find thought provoking.  Once in a while, I will write my own post.  Here is list of topics that I have posted on, weighted by frequency:
+  </p>
+  <div class="well">
+    {% for tag in site.tags %}
+       <span style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 100 }}%">
+      {{ tag | first | replace: ' ', '-'}}
+      </span>
     {% endfor %}
-
+  </div> <!-- /.well -->
 </div> <!-- /#home -->

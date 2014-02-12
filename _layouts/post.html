@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+<h4>{{ page.title }}</h4>
 
-
+<p>
 {% for category in page.categories %}
   {% if category != "posts" %}
     <span class="label label-primary">{{ category }}</span>
@@ -13,6 +13,7 @@ layout: default
 {% for tag in page.tags %}
   <span class="label label-primary">{{ tag }}</span>
 {% endfor %}
+</p>
 
 <p class="meta">{{ page.date | date_to_string }}</p>
 

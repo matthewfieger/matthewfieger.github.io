@@ -2,18 +2,14 @@
 <html>
   {% include head.html %}
     <body>
-
+      <div id="wrap">
         <div class="container">
-
           {% include header.html %}
-
           <div class="row col-sm-12 col-md-12 col-lg-12">
-          {{ content }}
-          </div>
-
-          {% include footer.html %}
-
-        </div>
-
+            {{ content }}
+          </div> <!-- .row -->
+        </div> <!-- .container -->
+      </div>  <!-- #wrap -->
+      {% include footer.html %}
     </body>
 </html>
