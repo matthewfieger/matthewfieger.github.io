@@ -1,6 +1,13 @@
----
+/*
 
----
+@brand-primary: #003366;
+@brand-success: #336666;
+@brand-info:    #669966;
+@brand-warning: #ffcc33;
+@brand-danger:  #990000;
+
+*/
+
 
 /*****************************************************************************/
 /*
@@ -62,6 +69,19 @@ body {
   }
 }
 
+.navbar-default {
+	background-color: #990000;
+	border-color: #e7e7e7;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
 
 /*****************************************************************************/
 /*
