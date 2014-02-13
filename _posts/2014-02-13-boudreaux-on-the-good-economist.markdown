@@ -23,3 +23,5 @@ reference: "http://cafehayek.com/2014/02/quotation-of-the-day-901.html"
 Boudreaux draws the following conclusion:
 
 > The good economist is never very impressive to the ‘man in street,’ to politicians, or to pop-journalists, for the good economist, when talking to these people, mostly tells them that their assumptions are false and their fancies are futile.
+
+Read more [here]({{page.reference}}).

@@ -5,7 +5,11 @@ date:   2014-01-28 18:49:00
 categories: posts books quotes
 tags: ["economics", "value", "hayek"]
 source: "F.A. Hayek"
-reference: "The Fatal Conceit"
+reference:
+  - Title: "The Fatal Conceit: The Errors of Socialism"
+  - Author: "F.A. Hayek"
+  - Pages: "125-127"
+  - Publisher: "Taylor and Francis. Kindle Edition."
 ---
 
 On the meaning of value, Hayek writes:
@@ -20,6 +24,7 @@ On the meaning of value, Hayek writes:
 
 > Economic values are interpretations of physical facts in the light of the degrees of suitability of kinds of physical objects in particular situations for the satisfaction of needs.
 
-<small>Hayek, F.A. (2013-10-28).<br />
-The Fatal Conceit: The Errors of Socialism (The Collected Works of F.A. Hayek) (pgs. 85-88).<br />
-Taylor and Francis. Kindle Edition.</small>
+{{ page.reference[0].Title }}
+{{ page.reference[1].Author }}
+{{ page.reference[2].Pages }}
+{{ page.reference[3].Publisher }}

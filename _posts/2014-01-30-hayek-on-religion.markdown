@@ -24,12 +24,7 @@ On religion, Hayek writes:
 
 Hayek echoes the thinking of both Émile Durkheim and Adam Smith.  Durkheim argued that, "Religion gave birth to all that is essential in the society," and Smith argued that, "Religion, even in its crudest form, gave a sanction to the rules of morality long before the age of artificial reasoning and philosophy."
 
-
-{% comment %}
-
-	{{ page.reference[0].Title }}
-	{{ page.reference[1].Author }}
-	{{ page.reference[2].Pages }}
-	{{ page.reference[3].Publisher }}
-
-{% endcomment %}
+{{ page.reference[0].Title }}
+{{ page.reference[1].Author }}
+{{ page.reference[2].Pages }}
+{{ page.reference[3].Publisher }}
