@@ -6,29 +6,31 @@ categories: posts links
 tags: ["links"]
 ---
 
-<a target="_blank" href="http://www.aljazeera.com/news/middleeast/">Al-Jazeera-English</a><br />
-<a target="_blank" href="http://www.bbc.co.uk/news/world/">BBC</a><br />
-<a target="_blank" href="http://www.bloomberg.com/">Bloomberg</a><br />
-<a target="_blank" href="http://www.cafehayek.com/">Cafe-Hayek</a><br />
-<a target="_blank" href="http://www.calculatedriskblog.com/">Calculated-Risk</a><br />
-<a target="_blank" href="http://www.coordinationproblem.org/">Coordination Problem</a><br />
-<a target="_blank" href="http://econlog.econlib.org/">EconLog</a><br />
-<a target="_blank" href="http://www.feynmanlectures.caltech.edu/">Feynman-Lectures</a><br />
-<a target="_blank" href="http://johnhcochrane.blogspot.com/">The Grumpy Economist</a><br />
-<a target="_blank" href="https://news.ycombinator.com/news">HN</a><br />
-<a target="_blank" href="http://knowledgeproblem.com/">Knowledge Problem</a><br />
-<a target="_blank" href="http://marginalrevolution.com/">Marginal-Revolution</a><br />
-<a target="_blank" href="http://www.marketwatch.com/">Market-Watch</a><br />
-<a target="_blank" href="http://www.mercola.com/">Mercola</a><br />
-<a target="_blank" href="http://www.nytimes.com/">NYT</a><br />
-<a target="_blank" href="http://www.reddit.com/r/bitcoin">/r/Bitcoin</a><br />
-<a target="_blank" href="http://www.joshualandis.com/blog/">Syria-Comment</a><br />
-<a target="_blank" href="http://live.aljazeera.com/Event/Syria_Live_Blog">Syria-Live-Blog</a><br />
-<a target="_blank" href="https://medium.com/the-physics-arxiv-blog">The-Physics-arXiv-Blog</a><br />
-<a target="_blank" href="http://thinkmarkets.wordpress.com/">ThinkMarkets</a><br />
-<a target="_blank" href="http://unenumerated.blogspot.com/">Unenumerated</a><br />
-<a target="_blank" href="http://www.volokh.com/">The Volokh Conspiracy</a><br />
-<a target="_blank" href="http://online.wsj.com/home-page">WSJ</a><br />
-<a target="_blank" href="http://www.livestation.com/ar/channels/aljazeera-arabic">الجزيرة مباشرة</a><br />
-<a target="_blank" href="http://www.aljazeera.net/portal">الجزيرة</a><br />
-<a target="_blank" href="http://www.alarabiya.net/default.html">العربية.نت</a>
+<div class="list-group">
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.aljazeera.com/news/middleeast/">Al-Jazeera-English</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.bbc.co.uk/news/world/">BBC</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.bloomberg.com/">Bloomberg</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.cafehayek.com/">Cafe-Hayek</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.calculatedriskblog.com/">Calculated-Risk</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.coordinationproblem.org/">Coordination Problem</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://econlog.econlib.org/">EconLog</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.feynmanlectures.caltech.edu/">Feynman-Lectures</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://johnhcochrane.blogspot.com/">The Grumpy Economist</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="https://news.ycombinator.com/news">HN</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://knowledgeproblem.com/">Knowledge Problem</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://marginalrevolution.com/">Marginal-Revolution</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.marketwatch.com/">Market-Watch</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.mercola.com/">Mercola</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.nytimes.com/">NYT</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.reddit.com/r/bitcoin">/r/Bitcoin</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.joshualandis.com/blog/">Syria-Comment</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://live.aljazeera.com/Event/Syria_Live_Blog">Syria-Live-Blog</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="https://medium.com/the-physics-arxiv-blog">The-Physics-arXiv-Blog</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://thinkmarkets.wordpress.com/">ThinkMarkets</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://unenumerated.blogspot.com/">Unenumerated</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.volokh.com/">The Volokh Conspiracy</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://online.wsj.com/home-page">WSJ</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.livestation.com/ar/channels/aljazeera-arabic">الجزيرة مباشرة</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.aljazeera.net/portal">الجزيرة</a><br />
+	<a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.alarabiya.net/default.html">العربية.نت</a>
+</div>
