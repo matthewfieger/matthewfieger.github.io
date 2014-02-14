@@ -193,6 +193,9 @@ text-overflow: ellipsis;
   border-color: #d9534f;
 }
 
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  background-color: #336666;
+}
 
 /*****************************************************************************/
 /*
