@@ -1,6 +1,9 @@
 ---
-layout: default
-title:
+layout: post
+title:  "Links"
+date:   2014-02-15 12:29:00
+categories: posts links
+tags: ["links"]
 ---
 
 <div class="list-group">
@@ -28,4 +31,3 @@ title:
   <a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.aljazeera.net/portal">الجزيرة</a><br />
   <a target="_blank" class="list-group-item" style="margin-bottom: -30px;" href="http://www.alarabiya.net/default.html">العربية.نت</a>
 </div>
-
