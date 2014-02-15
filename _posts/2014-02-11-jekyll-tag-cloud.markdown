@@ -14,7 +14,7 @@ I've built the site with Jekyll, and there are at least a few [Jekyll plugins](h
 
 Jekyll traverses the site looking for files to process. Any files with YAML Front Matter are subject to processing. For each of these files, Jekyll makes a variety of data available via the Liquid templating system. [\[ 2 \]](http://jekyllrb.com/docs/variables/)
 
-To create a tag cloud, the first thing to do is access global tags variable, {% raw %}{{ site.tags }}{% endraw %}.  This returns an object of key-value pairs.  Each key represents a tag, and each key's corresponding value is an array containing all posts that cite that tag.  It looks something like this:
+To create a tag cloud, the first thing to do is access the global tags variable, {% raw %}{{ site.tags }}{% endraw %}.  This returns an object of key-value pairs.  Each key represents a tag, and each key's corresponding value is an array containing all posts that cite that tag.  It can be thought of as something like this:
 
 	{
 	tagName : [post, post, post],
