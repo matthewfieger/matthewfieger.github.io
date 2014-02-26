@@ -3,7 +3,7 @@ layout: post
 title:  "Dourado on Bitcoin"
 date:   2014-01-09 09:59:00
 categories: posts quotes
-tags: ["cryptocurrency", "bitcoin", "finance"]
+tags: ["cryptocurrency", "bitcoin", "finance", "permissionless"]
 source: "Eli Dourado"
 reference: "http://theumlaut.com/2014/01/08/bitcoin-internet-of-money/"
 ---
