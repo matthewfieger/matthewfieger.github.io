@@ -8,7 +8,7 @@ source: "http://www.manchin.senate.gov/public/index.cfm/press-releases?ID=237cbd
 reference: "Joe Manchin"
 ---
 
-In the wake of the Mt. Gox shutdown, Senator Joe Manchin proposes a <strike>reasoned</strike> totalitarian approach towards Bitcoin:
+In the wake of the Mt. Gox shutdown, Senator Joe Manchin [proposes]({{ page.source }} ) a <strike>reasoned</strike> totalitarian approach towards Bitcoin:
 
 > I write today to express my concerns about Bitcoin. This virtual currency is currently unregulated and has allowed users to participate in illicit activity, while also being highly unstable and disruptive to our economy. For the reasons outlined below, I urge regulators to take appropriate action to limit the abilities of this highly unstable currency.
 
