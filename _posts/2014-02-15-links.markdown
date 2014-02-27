@@ -3,7 +3,7 @@ layout: post
 title:  "Links"
 date:   2014-02-15 12:29:00
 categories: posts links
-tags: ["links"]
+tags:
 ---
 
 <div class="list-group">
