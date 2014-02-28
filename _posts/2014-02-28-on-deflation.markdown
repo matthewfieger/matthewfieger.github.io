@@ -8,7 +8,7 @@ source: "http://www.manchin.senate.gov/public/index.cfm/press-releases?ID=237cbd
 reference: "Senator Joe Manchin"
 ---
 
-{{ page.reference }} [recently called for a ban on Bitcoin]({{ page.source }}).  One of the keystones of the Senator's is that Bitcoin is a deflationary asset.  The Senator writes:
+{{ page.reference }} [recently called for a ban on Bitcoin]({{ page.source }}).  One of the cornerstones of the Senator's argument is that Bitcoin is a deflationary asset.  The Senator writes:
 
 > In addition, its deflationary trends ensure that only speculators, such as so-called “Bitcoin miners,” will benefit from possessing the virtual currency. There is no doubt average American consumers stand to lose by transacting in Bitcoin. As of December 2013, the Consumer Price Index (CPI) shows 1.3% inflation, while a recent media report indicated Bitcoin CPI has 98% deflation. In other words, spending Bitcoin now will cost you many orders of wealth in the future. This flaw makes Bitcoin’s value to the U.S. economy suspect, if not outright detrimental.
 
