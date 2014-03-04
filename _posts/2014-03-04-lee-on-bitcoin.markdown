@@ -5,7 +5,7 @@ date:   2014-03-04 10:47:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin", "fraud", "currency"]
 source: "http://timothyblee.com/2014/03/01/heres-why-bitcoin-the-network-needs-bitcoin-the-currency/"
-reference: "Timothy B Lee"
+reference: "Timothy B. Lee"
 ---
 
 {{ page.reference }} explains why an open payment network necessitates an internal store of value:
