@@ -8,7 +8,7 @@ source: "Charles Wesley Cowany and Roderich Tumulka"
 reference: http://arxiv.org/pdf/1307.0827v1.pdf
 ---
 
-{{ page.source }} [writes]({{page.reference}}):
+{{ page.source }} [write]({{page.reference}}):
 
 > Since science provides us with knowledge, it may seem surprising that it sometimes sets limitations to knowledge. By a "limitation to knowledge" we mean that certain facts about the world cannot be discovered or confirmed in an empirical way, no matter how big our effort, including possible future technological advances. For example, a limitation to knowledge is in place if a quantity cannot be measured although it has a well defined value. A limitation to knowledge means that there is a fact, and we cannot know what it is, nor even guess with much of a chance of guessing correctly. Nature knows and we do not.
 
