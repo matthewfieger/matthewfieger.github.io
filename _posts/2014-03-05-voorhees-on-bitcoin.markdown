@@ -2,7 +2,7 @@
 layout: post
 title:  "Voorhees on Bitcoin"
 date:   2014-03-05 14:15:00
-categories: posts me quotes
+categories: posts quotes
 tags: ["bitcoin", "creative destruction", "disruption"]
 source: "Erik Voorhees"
 reference: "http://www.coindesk.com/bitcoins-biggest-challenge-educational-technical/"
