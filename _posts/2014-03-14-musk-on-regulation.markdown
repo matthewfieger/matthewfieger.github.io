@@ -22,7 +22,7 @@ In his letter, Musk explains what makes Tesla a disruptive force:
 
 > Going a step further, I have made it a principle within Tesla that we should never attempt to make servicing a profit center. It does not seem right to me that companies try to make a profit off customers when their product breaks.
 
-Finally, a Hacker News reader [offers some relfection](https://news.ycombinator.com/item?id=7401303):
+Finally, a Hacker News reader [offers some reflection](https://news.ycombinator.com/item?id=7401303):
 
 > It's amazing how much building a new company in a supposedly free market requires arguing against politicians who claim to champion free market economics, but who actually use government to give cushy monopolies to incumbents with big lobbying budgets.
 "Crony capitalism" isn't an accurate term for this; it's more like economic central planning by way of lobbyists instead of communist bureaus.
