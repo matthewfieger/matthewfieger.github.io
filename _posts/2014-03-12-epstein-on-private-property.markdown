@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Epstein on Private Property"
-date:   2014-03-14 10:25:00
+date:   2014-03-12 10:25:00
 categories: posts quotes
 tags: [ "classical liberalism", "law", "majoritarianism", "private property", "constitution", "holdout problem"]
 source: "Richard Epstein"

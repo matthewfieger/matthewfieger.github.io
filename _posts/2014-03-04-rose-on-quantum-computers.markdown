@@ -8,7 +8,7 @@ source: "http://dwave.wordpress.com/2014/02/04/the-recent-how-quantum-is-the-d-w
 reference: "Gordie Rose"
 ---
 
-{{ page.reference }} comments on recent experimental results testing whether D-Wave processors are quantum or classical:
+{{ page.reference }} comments on recent experiments investigating whether D-Wave processors are quantum or classical:
 
 > It is common practice that whenever an experiment is reported demonstrating quantum mechanical (or in general non-classical) effects, researchers look for classical models that can provide the same results. A successful theory, however, needs to explain all existing experimental results and not just a few select ones. For example, the classical model of light with the assumption of ether could successfully explain many experiments at the beginning of the 20th century. Only a few unexplained experiments were enough to lead to the emergence of special relativity.
 
