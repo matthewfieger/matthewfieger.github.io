@@ -2,7 +2,7 @@
 layout: post
 title:  "Musk on Regulation"
 date:   2014-03-14 16:22:00
-categories: posts quotes
+categories: posts me quotes
 tags: ["regulation", "luddism", "crony capitalism", "disruption"]
 source: "Elon Musk"
 reference: "http://www.teslamotors.com/blog/people-new-jersey"
@@ -29,4 +29,4 @@ Finally, a Hacker News reader [offers some reflection](https://news.ycombinator.
 
 This is no doubt an outrage and a clear example of how [regulatory capture](http://en.wikipedia.org/wiki/Regulatory_capture) can make it more difficult for new entrants to disrupt incumbents.  At the moment, Tesla appears to be the outlying victim of this particular instance of regulatory capture.  However, incumbent car manufactures should also take note here.  In the coming years, they too will seek to introduce new technologies, some of which may not be compatible with the existing franchise based distribution and sales model.  How will manufacturers successfully commercialize these technologies if they are prevented from adapting to new business realities?  There may not be an answer to that question.  If they are forced to maintain the current franchise model, introducing technologies that are disruptive to that model will indeed be extremely difficult if not impossible.
 
-If such new technologies are stymied at the behest of regulators and politicians, it would be the none other than the consumer who would stand to lose the most.  Ironically, it is in the name of the consumer that these regulators and politicians act.
+If such new technologies are stymied at the behest of regulators and politicians, it would be none other than the consumer who would stand to lose the most.  Ironically, it is in the name of the consumer that these regulators and politicians act.
