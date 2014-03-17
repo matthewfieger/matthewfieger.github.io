@@ -8,7 +8,7 @@ source: "Elon Musk"
 reference: "http://www.teslamotors.com/blog/people-new-jersey"
 ---
 
-{{ page.source }} writing to the people of New Jersey:
+{{ page.source }} [writing]({{page.reference}}) to the people of New Jersey:
 
 > On Tuesday, under pressure from the New Jersey auto dealer lobby to protect its monopoly, the New Jersey Motor Vehicle Commission, composed of political appointees of the Governor, ended your right to purchase vehicles at a manufacturer store within the state. Governor Christie had promised that this would be put to a vote of the elected state legislature, which is the appropriate way to change the law. When it became apparent to the auto dealer lobby that this approach would not succeed, they cut a backroom deal with the Governor to circumvent the legislative process and pass a regulation that is fundamentally contrary to the intent of the law.
 
@@ -27,4 +27,6 @@ Finally, a Hacker News reader [offers some reflection](https://news.ycombinator.
 > It's amazing how much building a new company in a supposedly free market requires arguing against politicians who claim to champion free market economics, but who actually use government to give cushy monopolies to incumbents with big lobbying budgets.
 "Crony capitalism" isn't an accurate term for this; it's more like economic central planning by way of lobbyists instead of communist bureaus.
 
-Read the rest of Musk's letter [here]({{page.reference}}).
+This is no doubt an outrage and a clear example of how [regulatory capture](http://en.wikipedia.org/wiki/Regulatory_capture) can make it more difficult for new entrants to disrupt incumbents.  At the moment, Tesla appears to be the outlying victim of this particular instance of regulatory capture.  However, incumbent car manufactures should also take note here.  In the coming years, they too will seek to introduce new technologies, some of which may not be compatible with the existing franchise based distribution and sales model.  How will manufacturers successfully commercialize these technologies if they are prevented from adapting to new business realities?  There may not be an answer to that question.  If they are forced to maintain the current franchise model, introducing technologies that are disruptive to that model will indeed be extremely difficult if not impossible.
+
+If such new technologies are stymied at the behest of regulators and politicians, it would be the none other than the consumer who would stand to lose the most.  Ironically, it is in the name of the consumer that these regulators and politicians act.
