@@ -3,7 +3,7 @@ layout: post
 title:  "The Economist on Bitcoin"
 date:   2014-03-21 15:53:00
 categories: posts quotes
-tags: ["cryptocurrency", "bitcoin"]
+tags: ["cryptocurrency", "bitcoin", "permissionless"]
 source: "The Economist"
 reference: "http://www.economist.com/news/finance-and-economics/21599054-how-crypto-currency-could-become-internet-money-hidden-flipside"
 ---
