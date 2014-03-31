@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nakamoto on Trust in Payments"
+title:  "Nakamoto on Bitcoin"
 date:   2014-03-31 09:32:00
 categories: posts quotes
 tags: ["cryptocurrency", "bitcoin", "payments", "micropayments", "transaction costs", "counter-party trust"]
@@ -8,7 +8,7 @@ source: "Satoshi Nakamoto"
 reference: "http://p2pfoundation.net/bitcoin#Description"
 ---
 
-{{ page.source }} on trust in payments:
+{{ page.source }} on Bitcoin:
 
 > It’s completely decentralized, with no central server or trusted parties, because everything is based on crypto proof instead of trust.
 
