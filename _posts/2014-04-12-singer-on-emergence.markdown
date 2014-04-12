@@ -3,7 +3,7 @@ layout: post
 title:  "Singer on Emergence"
 date:   2014-04-12 16:21:00
 categories: posts quotes
-tags: ["classical liberalism", "emergence", "self-organization", "evolution"]
+tags: ["emergence", "self-organization", "evolution", "classical liberalism"]
 source: "Emily Singer"
 reference: "https://www.simonsfoundation.org/quanta/20140409-the-remarkable-self-organization-of-ants/"
 ---
