@@ -3,7 +3,7 @@ layout: post
 title:  "Epstein on Campaign Contributions"
 date:   2014-04-12 17:45:00
 categories: posts quotes
-tags: ["campaign contribution", "classical liberalism"]
+tags: ["campaign contributions", "classical liberalism"]
 source: "Richard Epstein"
 reference: "http://www.hoover.org/publications/defining-ideas/article/174986"
 ---
