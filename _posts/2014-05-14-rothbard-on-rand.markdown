@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rothbard on Rand"
-date:   2014-05-04 15:10:00
+date:   2014-05-14 15:10:00
 categories: posts quotes
 tags: ["political philosophy", "liberalism", "individualism", "objectivism", "reason"]
 source: "Murray Rothbard"
