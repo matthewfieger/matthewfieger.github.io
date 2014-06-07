@@ -3,7 +3,7 @@ layout: post
 title:  "Hayek on The Judge"
 date:   2014-06-06 10:34:00
 categories: posts books quotes
-tags: ["constitutional law", "classical liberalism", "hayek"]
+tags: ["law", "common law", "classical liberalism", "hayek", "emergent order"]
 source: "F.A. Hayek"
 reference:
   - Title: "Law, Legislation and Liberty: A new statement of the liberal principles of justice and political economy"

@@ -3,7 +3,7 @@ layout: post
 title:  "Zane on Law and Legislation"
 date:   2014-06-07 09:41:00
 categories: posts quotes
-tags: ["law", "legislation"]
+tags: ["law", "legislation", "emergent order"]
 source: "John Maxcy Zane"
 reference: "http://cafehayek.com/2014/06/quotation-of-the-day-1014.html"
 ---
