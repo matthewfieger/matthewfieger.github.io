@@ -13,9 +13,9 @@ For this first post, let's start with publications and subscriptions (pub/sub), 
 	Meteor.publish(name, func)
 	Meteor.subscribe(name [, arg1, arg2, ... ] [, callbacks])
 
-These functions control the flow of data between the client and the server.  Just like their names would suggest, the server determines which records are published and the client determines which records are subscribed to.  When the client subscribes to a record, the server sends the record, and the client stores a copy locally.  Meteor does the behind the scenes work of keeping the local copy up to date with what is on the server.  So here are a few example patterns of pub/sub in Meteor.
+In Meteor, documents are stored in what are called a collections. These the above functions control the flow of documents between the client and the server.  Just like their names would suggest, the server determines which documents are published and the client determines which documents are subscribed to.  When the client subscribes to a publication, the server sends the associated documents, and the client stores a copy of each locally.  Meteor does the behind the scenes work of keeping the local copies up to date with what is on the server.  So here are a few example patterns of pub/sub in Meteor.
 
-This pattern only publishes records if the client is logged in:
+This pattern only publishes documents if the client is logged in:
 
 	// On the server
 	  Meteor.publish('comments', function () {
@@ -28,7 +28,7 @@ This pattern only publishes records if the client is logged in:
 	// On the client
 	Meteor.subscribe('comments')
 
-This pattern only publishes records whose 'projectId' value matches a role that is assigned to the client:
+This pattern only publishes documents whose 'projectId' value matches a role that is assigned to the client:
 
 	// On the server
 	  Meteor.publish('comments', function () {
@@ -44,7 +44,7 @@ This pattern only publishes records whose 'projectId' value matches a role that 
 	// On the client
 	Meteor.subscribe('comments')
 
-This pattern publishes specific fields in the user database:
+This pattern publishes specific fields from the 'users' collection:
 
 	// On the server
 	Meteor.publish('users', function () {
@@ -61,7 +61,7 @@ This pattern publishes specific fields in the user database:
 	Meteor.subscribe('users')
 
 
-This pattern takes a simple argument:
+This pattern takes a simple argument.  It uses the Underscore 'contains' method to check if the argument is in the user's 'roles' array and the publishes only documents that match that role:
 
 	// On the server
 	Meteor.publish('observations', function (arguments) {
@@ -104,7 +104,7 @@ This pattern can take up to two arguments, and checks for the existence of each 
 	// On the client
 	Meteor.subscribe('videos', {'projectId': Session.get("currentProject"), 'video_id': param})
 
-This pattern individually adds records to publish to the client.  It publishes one of each of a specific type of record:
+This pattern individually adds documents to publish to the client.  It publishes one of each of a specific type of document:
 
 	Meteor.publish('videosThumbnails', function () {
 		var self = this

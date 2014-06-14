@@ -78,3 +78,5 @@ To organize my Meteor directory for Basecamp Insights, I have been using a scaff
 	│   ├── methods
 	│   └── publish
 	└── tests
+
+P.S. You can easily print a directory tree like the one above using the "tree" command in OSX.  Install this command with Homebrew "brew install tree".
