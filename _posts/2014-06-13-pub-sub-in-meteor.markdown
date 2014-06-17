@@ -13,7 +13,7 @@ For this first post, let's start with publications and subscriptions (pub/sub), 
 	Meteor.publish(name, func)
 	Meteor.subscribe(name [, arg1, arg2, ... ] [, callbacks])
 
-In Meteor, documents are stored in what are called a collections. These the above functions control the flow of documents between the client and the server.  Just like their names would suggest, the server determines which documents are published and the client determines which documents are subscribed to.  When the client subscribes to a publication, the server sends the associated documents, and the client stores a copy of each locally.  Meteor does the behind the scenes work of keeping the local copies up to date with what is on the server.  So here are a few example patterns of pub/sub in Meteor.
+In Meteor, documents are stored in what are called a collections. The above functions control the flow of documents between the client and the server.  Just like their names would suggest, the server determines which documents are published and the client determines which documents are subscribed to.  When the client subscribes to a publication, the server sends the relevant documents, and the client stores a copy of each locally.  Meteor does the behind the scenes work of keeping the local copies up to date with what is on the server.  So here are a few example patterns of pub/sub in Meteor.
 
 This pattern only publishes documents if the client is logged in:
 
@@ -28,7 +28,7 @@ This pattern only publishes documents if the client is logged in:
 	// On the client
 	Meteor.subscribe('comments')
 
-This pattern only publishes documents whose 'projectId' value matches a role that is assigned to the client:
+This pattern only publishes documents whose `projectId` value matches a role that is assigned to the client:
 
 	// On the server
 	  Meteor.publish('comments', function () {
@@ -44,14 +44,17 @@ This pattern only publishes documents whose 'projectId' value matches a role tha
 	// On the client
 	Meteor.subscribe('comments')
 
-This pattern publishes specific fields from the 'users' collection:
+This pattern publishes specific fields from the `users` collection:
 
 	// On the server
 	Meteor.publish('users', function () {
 	  if (this.userId) {
 		var roles = Meteor.users.findOne({_id : this.userId}).roles;
 		if (roles) {
-			return Meteor.users.find({roles : {$in : roles}}, {fields: {username: 1, emails: 1, profile: 1, roles: 1, status: 1 }});
+			return Meteor.users.find(
+				{roles : {$in : roles}},
+				{fields: {username: 1, emails: 1, profile: 1, roles: 1, status: 1 }}
+			);
 		}
 	  }
 	  return this.ready();
@@ -61,7 +64,7 @@ This pattern publishes specific fields from the 'users' collection:
 	Meteor.subscribe('users')
 
 
-This pattern takes a simple argument.  It uses the Underscore 'contains' method to check if the argument is in the user's 'roles' array and the publishes only documents that match that role:
+This pattern takes a simple argument.  It uses the Underscore `contains` function to check if the argument is in the user's `roles` array and then publishes only documents that match that role:
 
 	// On the server
 	Meteor.publish('observations', function (arguments) {
@@ -102,7 +105,10 @@ This pattern can take up to two arguments, and checks for the existence of each 
 	});
 
 	// On the client
-	Meteor.subscribe('videos', {'projectId': Session.get("currentProject"), 'video_id': param})
+	Meteor.subscribe(
+		'videos',
+		{'projectId': Session.get("currentProject"), 'video_id': param}
+	)
 
 This pattern individually adds documents to publish to the client.  It publishes one of each of a specific type of document:
 
@@ -122,7 +128,7 @@ This pattern individually adds documents to publish to the client.  It publishes
 	// On the client
 	Meteor.subscribe('videosThumbnails')
 
-You can specify which code is executed on the client and which code is executed on the server using Meteor's built in directory structure.  Anything in the 'client' folder gets executed on the client and anything in the 'server' folder gets executed on the server.  You could also use Meteor's 'isClient' and 'isServer' methods:
+You can specify which code is executed on the client and which code is executed on the server using Meteor's built in directory structure.  Anything in the `client` folder gets executed on the client and anything in the `server` folder gets executed on the server.  You could also use Meteor's `isClient` and `isServer` methods:
 
 	if (Meteor.isServer) {
 	  Meteor.publish('comments', function () {
