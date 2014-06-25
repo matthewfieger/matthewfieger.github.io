@@ -6,9 +6,9 @@ categories: posts me
 tags: ["programming", "meteor", "basecamp insights"]
 ---
 
-This is a pattern for OAuth bindings in Meteor.  Here, I am using OAuth to request a bunch of videos from the Vimeo Staff Pick's Channel that I can use as data fixtures when testing my app.
+This is a pattern for building OAuth bindings in Meteor.  Here, I am using OAuth to request a bunch of videos from the Vimeo Staff Pick's Channel that I can use as data fixtures when testing my app.
 
-OAuth isn't thoroughly documented in Meteor yet and a couple of methods that I use below start with an `_`, which means that they are Meteor internal functions that are subject to future change.  But in the meantime, this pattern should work for standard OAuth 1.0 bindings.
+OAuth isn't thoroughly documented in Meteor yet and a couple of methods that I use below start with an `_`, which I think means that they are Meteor internal functions that are subject to future change.  But in the meantime, this pattern should work for standard OAuth 1.0 bindings.
 
 For more information, I recommend checking out [Vimeo's API documentation](https://developer.vimeo.com/apis/advanced/methods/vimeo.channels.getVideos) as well as [the source for Meteor's OAuth bindings](https://github.com/meteor/meteor/blob/master/packages/oauth1/oauth1_binding.js).
 
