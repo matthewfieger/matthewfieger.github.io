@@ -10,13 +10,16 @@ I've been working on a project with the [MeteorJS](http://www.meteor.com) framew
 
 For this first post, let's start with publications and subscriptions (pub/sub), which are the basic building blocks of any Meteor app.
 
+{% highlight javascript %}
 	Meteor.publish(name, func)
 	Meteor.subscribe(name [, arg1, arg2, ... ] [, callbacks])
+{% endhighlight %}
 
 In Meteor, documents are stored in what are called a collections. The above functions control the flow of documents between the client and the server.  Just like their names would suggest, the server determines which documents are published and the client determines which documents are subscribed to.  When the client subscribes to a publication, the server sends the relevant documents, and the client stores a copy of each locally.  Meteor does the behind the scenes work of keeping the local copies up to date with what is on the server.  So here are a few example patterns of pub/sub in Meteor.
 
 This pattern only publishes documents if the client is logged in:
 
+{% highlight javascript %}
 	// On the server
 	  Meteor.publish('comments', function () {
 		  if (this.userId) {
@@ -27,9 +30,11 @@ This pattern only publishes documents if the client is logged in:
 
 	// On the client
 	Meteor.subscribe('comments')
+{% endhighlight %}
 
 This pattern only publishes documents whose `projectId` value matches a role that is assigned to the client:
 
+{% highlight javascript %}
 	// On the server
 	  Meteor.publish('comments', function () {
 		  if (this.userId) {
@@ -43,9 +48,11 @@ This pattern only publishes documents whose `projectId` value matches a role tha
 
 	// On the client
 	Meteor.subscribe('comments')
+{% endhighlight %}
 
 This pattern publishes specific fields from the `users` collection:
 
+{% highlight javascript %}
 	// On the server
 	Meteor.publish('users', function () {
 	  if (this.userId) {
@@ -62,10 +69,11 @@ This pattern publishes specific fields from the `users` collection:
 
 	// On the client
 	Meteor.subscribe('users')
-
+{% endhighlight %}
 
 This pattern takes a simple argument.  It uses the Underscore `contains` function to check if the argument is in the user's `roles` array and then publishes only documents that match that role:
 
+{% highlight javascript %}
 	// On the server
 	Meteor.publish('observations', function (arguments) {
 		if (this.userId) {
@@ -79,9 +87,11 @@ This pattern takes a simple argument.  It uses the Underscore `contains` functio
 
 	// On the client
 	Meteor.subscribe('observations', {'projectId': Session.get("currentProject")})
+{% endhighlight %}
 
 This pattern can take up to two arguments, and checks for the existence of each before deciding what to do:
 
+{% highlight javascript %}
 	// On the server
 	Meteor.publish('videos', function (arguments) {
 		if (!!this.userId) {
@@ -109,9 +119,11 @@ This pattern can take up to two arguments, and checks for the existence of each 
 		'videos',
 		{'projectId': Session.get("currentProject"), 'video_id': param}
 	)
+{% endhighlight %}
 
 This pattern individually adds documents to publish to the client.  It publishes one of each of a specific type of document:
 
+{% highlight javascript %}
 	Meteor.publish('videosThumbnails', function () {
 		var self = this
 		if (!!this.userId) {
@@ -127,9 +139,11 @@ This pattern individually adds documents to publish to the client.  It publishes
 
 	// On the client
 	Meteor.subscribe('videosThumbnails')
+{% endhighlight %}
 
 You can specify which code is executed on the client and which code is executed on the server using Meteor's built in directory structure.  Anything in the `client` folder gets executed on the client and anything in the `server` folder gets executed on the server.  You could also use Meteor's `isClient` and `isServer` methods:
 
+{% highlight javascript %}
 	if (Meteor.isServer) {
 	  Meteor.publish('comments', function () {
 		  if (this.userId) {
@@ -142,3 +156,4 @@ You can specify which code is executed on the client and which code is executed 
 	if (Meteor.isClient) {
 		Meteor.subscribe('comments')
 	}
+{% endhighlight %}

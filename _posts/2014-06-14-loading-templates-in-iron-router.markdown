@@ -10,11 +10,13 @@ tags: ["programming", "meteor", "basecamp insights"]
 
 Iron Router supposedly provides a global setting to specify a loading template like so:
 
+{% highlight javascript %}
 	Router.configure({
 	  layoutTemplate: 'masterLayout',
 	  notFoundTemplate: 'notFound',
 	  loadingTemplate: 'loading',
 	});
+{% endhighlight %}
 
 The above configuration will give you a `layoutTemplate` and a `notFoundTemplate` but it will not give you a `loadingTemplate`.  The loading template is supposed to render while your route is waiting on subscriptions that are provided in the `waitOn` hook.  In older versions of Iron Router, this worked.  However, as of the latest release (7.0) the `waitOn` hook doesn't actually wait.  It merely provides a `this.ready()` callback and allows the rest of the route to render immediately.  When `this.ready()` returns true, the route re-renders with the updated subscriptions that you were waiting on.  The result is that the loading template never actually gets a chance to make an appearance.
 
@@ -22,6 +24,7 @@ So, if you want a loading template in the latest version of Iron Router, you nee
 
 Below is a route following this pattern.  My route waits on an array of subscriptions:
 
+{% highlight javascript %}
 	   this.route('observationItem', {
 		path: '/observations/:video_id',
 		controller: applicationController,
@@ -52,9 +55,11 @@ Below is a route following this pattern.  My route waits on an array of subscrip
 		  return query;
 		}
 	  });
+{% endhighlight %}
 
 Here is this route's controller.  In the `onBeforeAction` hook, it renders my loading template.  In the `action` hook, it again renders my loading template until `this.ready()` returns true.
 
+{% highlight javascript %}
 	applicationController = RouteController.extend({
 
 	  layoutTemplate: 'applicationLayout',
@@ -89,5 +94,6 @@ Here is this route's controller.  In the `onBeforeAction` hook, it renders my lo
 		}
 	  }
 	});
+{% endhighlight %}
 
 The above patterns will render the loading template until all of the subscriptions specified in the `waitOn` hook are ready.  If you want to subscribe to a publication but don't want the loading template to wait on it, you could subscribe to it in the `onBeforeAction` hook.

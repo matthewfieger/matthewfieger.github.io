@@ -12,6 +12,7 @@ OAuth isn't thoroughly documented in Meteor yet and a couple of methods that I u
 
 For more information, I recommend checking out [Vimeo's API documentation](https://developer.vimeo.com/apis/advanced/methods/vimeo.channels.getVideos) as well as [the source for Meteor's OAuth bindings](https://github.com/meteor/meteor/blob/master/packages/oauth1/oauth1_binding.js).
 
+{% highlight javascript %}
 	var vimeoStaffPicks = [];
 
 	var vimeoRequest  = function (page) {
@@ -81,3 +82,4 @@ For more information, I recommend checking out [Vimeo's API documentation](https
 	  // log the vimeoStaffPicks array to the console
 	  console.log(vimeoStaffPicks);
 	});
+{% endhighlight %}
