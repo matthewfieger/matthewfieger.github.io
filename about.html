@@ -14,10 +14,42 @@ title:
   <div class="well">
     <p>
     {% for tag in site.tags %}
-       <span style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 100 }}%">
+       <span class="tag" style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 100 }}%">
       {{ tag | first | replace: ' ', '-'}}
       </span>
     {% endfor %}
   </p>
   </div> <!-- /.well -->
 </div> <!-- /#home -->
+
+
+<script>
+(function($){
+
+    $.fn.shuffle = function() {
+
+        var allElems = this.get(),
+            getRandom = function(max) {
+                return Math.floor(Math.random() * max);
+            },
+            shuffled = $.map(allElems, function(){
+                var random = getRandom(allElems.length),
+                    randEl = $(allElems[random]).clone(true)[0];
+                allElems.splice(random, 1);
+                return randEl;
+           });
+
+        this.each(function(i){
+            $(this).replaceWith($(shuffled[i]));
+        });
+
+        return $(shuffled);
+
+    };
+
+})(jQuery);
+
+$(document).ready(function () {
+    $('.tag').shuffle();
+});
+</script>
