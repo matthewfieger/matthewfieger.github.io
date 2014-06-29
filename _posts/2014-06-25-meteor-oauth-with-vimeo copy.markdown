@@ -24,10 +24,6 @@ For more information, I recommend checking out [Vimeo's API documentation](https
 		'consumerKey' : Meteor.settings.vimeo.consumerKey,
 		 // Client Secret // Also known as Consumer Secret or API Secret
 		'secret' : Meteor.settings.vimeo.secret,
-		// My specific access token, not needed for this request
-		//'accessToken' : Meteor.settings.vimeo.accessToken,
-		// My specific access token secret, not needed for this request
-		//'accessTokenSecret' : Meteor.settings.vimeo.accessTokenSecret,
 		'method' : 'vimeo.channels.getVideos',
 		'format' : 'json',
 		'channel_id' : 'staffpicks',
