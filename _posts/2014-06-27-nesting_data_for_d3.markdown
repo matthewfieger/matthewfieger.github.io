@@ -126,7 +126,7 @@ D3.nest() gives us this:
 			"key": "tag_b",
 			"values": [
 			  {
-				"key": "undefined",
+				"key": "undefined",  // UNDEFINED NODE
 				"values": [
 				  {
 					"0": "tag_a",
@@ -174,7 +174,7 @@ and Underscore.nest() gives us this:
 			  "name": "tag_b",
 			  "children": [
 				{
-				  "name": "undefined",
+				  "name": "undefined",  // UNDEFINED NODE
 				  "children": [
 					{
 					  "0": "tag_a",
@@ -216,7 +216,7 @@ Now we have a problem.  Both D3.nest() and Underscore.nest() try to access keys 
 
 So, how do we nest data of arbitrary depth?  Someone pointed me towards a function called [burrow.js](https://gist.github.com/syntagmatic/4076122#file_burrow.js) that does exactly that.
 
-In my case, I am nesting data for something similar to [D3's Zoomable Treemap Example](http://bost.ocks.org/mike/treemap/) so I ended up modifying it slightly to fit that case.
+In my case, I am nesting data for something similar to [D3's Zoomable Treemap Example](http://bost.ocks.org/mike/treemap/) so I ended up modifying it slightly to fit that case and renaming it to `Underscore.burrow`.
 
 {% highlight javascript %}
 	// nest data based on nodes of arbitrary depth
@@ -341,8 +341,107 @@ In my case, I am nesting data for something similar to [D3's Zoomable Treemap Ex
 	if (!!_) {
 	  _.mixin({"burrow" : burrow});
 	} else {
-	  Burrow = burrow;
+	  throw new ReferenceError("burrow requires underscore");
 	}
 {% endhighlight %}
 
-The code can be found [here](https://github.com/matthewfieger/underscore.burrow).
+So, if you data looks like this:
+{% highlight javascript %}
+var data = [
+    {nodes : ['tag-a', 'tag-b', 'tag-c']},
+    {nodes : ['tag-a', 'tag-c', 'tag-b']},
+    {nodes : ['tag-c']}
+  ];
+{% endhighlight %}
+
+You can make it look like this with `Underscore.burrow`
+{% highlight javascript %}
+	 _.burrow(data);
+
+	// returns
+	{
+	  "name": "Root Node",
+	  "children": [
+		{
+		  "name": "tag-a",
+		  "children": [
+			{
+			  "name": "tag-b",
+			  "children": [
+				{
+				  "name": "tag-c",
+				  "value": 1
+				}
+			  ]
+			},
+			{
+			  "name": "tag-c",
+			  "children": [
+				{
+				  "name": "tag-b",
+				  "value": 1
+				}
+			  ]
+			}
+		  ]
+		},
+		{
+		  "name": "tag-c",
+		  "value": 1
+		}
+	  ]
+	}
+{% endhighlight %}
+
+`Underscore.burrow` can take an an array of objects or an array of arrays.  If you pass an array of objects, each object must contain a `nodes` property, whose value is an array of node items.  Likewise, if you pass an array of arrays, each array must be a list of node items.  In both cases, each node item will become a branch with the exception of the last node item which will become the leaf node.  If you pass an array of objects, there is an additional option of including extra data at each leaf item, via the `leafData` property like below.  The `leafData` property can be either a string or an object.
+
+{% highlight javascript %}
+	var data = [
+		{nodes : ['tag-a', 'tag-b', 'tag-c'], leafData : {name : 'Post 1'} },
+		{nodes : ['tag-a', 'tag-c', 'tag-b'], leafData : {name : 'Post 2'} },
+		{nodes : ['tag-b', 'tag-c'], leafData : {name : 'Post 3'} }
+	  ];
+
+	data = _.burrow(data)
+
+	{
+	  "name": "Root Node",
+	  "children": [
+		{
+		  "name": "tag-a",
+		  "children": [
+			{
+			  "name": "tag-b",
+			  "children": [
+				{
+				  "name": "Post 1",
+				  "value": 1
+				}
+			  ]
+			},
+			{
+			  "name": "tag-c",
+			  "children": [
+				{
+				  "name": "Post 2",
+				  "value": 1
+				}
+			  ]
+			}
+		  ]
+		},
+		{
+		  "name": "tag-b",
+		  "children": [
+			{
+			  "name": "Post 3",
+			  "value": 1
+			}
+		  ]
+		}
+	  ]
+	}
+{% endhighlight %}
+
+
+The code for `Underscore.burrow` as well as more documentation can be found [here](https://github.com/matthewfieger/underscore.burrow).  As I said at the top of this post, getting your data into a common D3 format can be more than half then battle when working with D3.  We really need a number of tools like above that help us do this faster.
