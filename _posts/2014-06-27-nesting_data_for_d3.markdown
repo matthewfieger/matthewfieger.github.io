@@ -446,7 +446,7 @@ Now we have nested data with branches and leaves at arbitrary depths! `Underscor
 
 The code for `Underscore.burrow` as well as more documentation can be found [here][4].  As I said at the top of this post, getting your data into a common D3 format can be a large part of the battle when working with D3.  It took me a lot longer than I would have liked to figure out how to nest data of arbitrary depth.  We really need a number of off the shelf tools like [`D3.nest`][1], [`Underscore.nest`][2], [`burrow.js`][3] and [`Underscore.burrow`][4] that will help us quickly get our data into common D3 formats.
 
-[1] [https://github.com/mbostock/d3/wiki/Arrays#array-operators]
-[2] [https://github.com/iros/underscore.nest]
-[3] [https://gist.github.com/syntagmatic/4076122#file_burrow.js]
-[4] [https://github.com/matthewfieger/underscore.burrow]
+[1]: https://github.com/mbostock/d3/wiki/Arrays#array-operators
+[2]: https://github.com/iros/underscore.nest
+[3]: https://gist.github.com/syntagmatic/4076122#file_burrow.js
+[4]: https://github.com/matthewfieger/underscore.burrow
