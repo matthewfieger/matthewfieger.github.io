@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Loading Templates in Meteor's Iron Router"
+title:  "Loading Template in Meteor's Iron Router"
 date:   2014-06-14 16:15:00
 categories: posts me
 tags: ["programming", "meteor", "basecamp insights"]

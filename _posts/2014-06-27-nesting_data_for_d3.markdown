@@ -214,7 +214,7 @@ and `Underscore.nest()` gives us this:
 
 Now we have a problem.  Both `D3.nest()` and `Underscore.nest()` try to access keys that are `undefined`, and go on to create branch nodes with the name `undefined`. They are both assuming that our data has uniform depth.  However we don't want undefined branches - we want the nesting to stop at leaf nodes, wherever they may be.
 
-So, how do we nest data of arbitrary depth?  Someone pointed me towards a function called [burrow.js][3] that does exactly that.
+So, how do we nest data of arbitrary depth?  Someone pointed me towards a function called [`burrow.js`][3] that does exactly that.
 
 In my case, I am nesting data for something similar to [D3's Zoomable Treemap Example](http://bost.ocks.org/mike/treemap/) so I ended up modifying it slightly to fit that case and renaming it to `Underscore.burrow`.
 
