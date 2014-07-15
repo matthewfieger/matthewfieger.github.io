@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adam Smith on Hubris"
+title:  "Smith on Hubris"
 date:   2014-07-15 16:28:00
 categories: posts quotes
 tags: ["economics", "hubris and humility"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Benn Steil and Manuel Hinds on The Law"
+title:  "Steil and Hinds on The Law"
 date:   2014-07-15 08:50:00
 categories: posts quotes
 tags: ["law", "emergence", "spontaneous order", "rational constructivism"]
