@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "On Electronic Medical Records"
+date:   2014-07-18 17:37:00
+categories: posts me
+tags: ["cryptocurrency", "medical records"]
+reference: "http://filecoin.io/filecoin.pdf"
+---
+
+A few days ago, a [white paper]({{page.reference}}) was published for a new file storage network called Filecoin:
+
+> Filecoin is a distributed electronic currency similar to Bitcoin. Unlike Bitcoin’s computation-only proof-of-work, Filecoin’s proof-of-work function includes a proof-of-retrievability component, which requires nodes to prove they store a particular file. The Filecoin network forms an entirely distributed file storage system, whose nodes are incentivized to store as much of the entire network’s data as they can. The currency is awarded for storing files, and is transferred in transactions, as in Bitcoin. Files are added to the network by spending currency. This produces strong monetary incentives for individuals to join and work for the network. In the course of ordinary operation of the Filecoin network, nodes contribute useful work in the form of storage and distribution of valuable data.
+
+Since the emergence of Bitcoin, I have been thinking about various possible applications of decentralized networks.  One use case in particular that has crossed my mind is with electronic medical records.  There are two seemingly opposing needs that medical records need to satisfy.  The first is that a patient's records need to be extremely secure and the second is that the patient's records need to be accessible from anywhere at anytime.  Additionally, medical records need to be compatible across systems.
+
+What could be better than to store medical records in an open source format, encrypt them and then put them in a distributed blockchain? That sounds great, but how would you incentivize network participants to host the files?  I think Filecoin may have just solved that problem.
