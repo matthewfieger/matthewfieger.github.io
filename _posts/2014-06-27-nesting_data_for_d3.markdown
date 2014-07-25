@@ -212,11 +212,11 @@ and `Underscore.nest()` gives us this:
 	}
 {% endhighlight %}
 
-Now we have a problem.  Both `D3.nest()` and `Underscore.nest()` try to access keys that are `undefined`, and go on to create branch nodes with the name `undefined`. They are both assuming that our data has uniform depth.  However we don't want undefined branches - we want the nesting to stop at leaf nodes, wherever they may be.
+Now we have a problem.  Both `D3.nest()` and `Underscore.nest()` try to access keys that are `undefined`, and go on to create branch nodes with name `undefined`. They are both assuming that our data has uniform depth.  However we don't want undefined branches - we want the nesting to stop at leaf nodes, wherever they may be.
 
 So, how do we nest data of arbitrary depth?  Someone pointed me towards a function called [`burrow.js`][3] that does exactly that.
 
-In my case, I am nesting data for something similar to [D3's Zoomable Treemap Example](http://bost.ocks.org/mike/treemap/) so I ended up modifying it slightly to fit that case and renaming it to `Underscore.burrow`.
+In my case, I am nesting data for something similar to [D3's Zoomable Treemap Example](http://bost.ocks.org/mike/treemap/) so I ended up modifying it to fit that case.  I've named the result `Underscore.burrow`.  I have annotated the source below:
 
 {% highlight javascript %}
 	// nest data based on nodes of arbitrary depth
@@ -329,7 +329,7 @@ In my case, I am nesting data for something similar to [D3's Zoomable Treemap Ex
 		else return false;
 	  }; // descend
 
-	  // nested objectect
+	  // nested object
 	  return {
 		name: root || 'Root Node', // name of the root node
 		children: descend(object)
@@ -444,7 +444,7 @@ Now we have nested data with branches and leaves at arbitrary depths! `Underscor
 	}
 {% endhighlight %}
 
-The code for `Underscore.burrow` as well as more documentation can be found [here][4].  As I said at the top of this post, getting your data into a common D3 format can be a large part of the battle when working with D3.  It took me a lot longer than I would have liked to figure out how to nest data of arbitrary depth.  We really need a number of off the shelf tools like [`D3.nest`][1], [`Underscore.nest`][2], [`burrow.js`][3] and [`Underscore.burrow`][4] that will help us quickly get our data into common D3 formats.
+The code for `Underscore.burrow` as well as more documentation can be found [here][4].  As I noted at the top of this post, getting your data into a common D3 format can be a large part of the battle when working with D3.  It took me a lot longer than I would have liked to figure out how to nest data of arbitrary depth.  We really need a number of off the shelf tools like [`D3.nest`][1], [`Underscore.nest`][2], [`burrow.js`][3] and [`Underscore.burrow`][4] that will help us quickly get our data into common D3 formats.
 
 [1]: https://github.com/mbostock/d3/wiki/Arrays#array-operators
 [2]: https://github.com/iros/underscore.nest
