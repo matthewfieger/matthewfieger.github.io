@@ -3,7 +3,7 @@ layout: post
 title:  "Andreessen on Venture Capital"
 date:   2014-05-21 09:37:00
 categories: posts quotes
-tags: ["business", "investing", "venture capital"]
+tags: ["business", "startup financing", "venture capital"]
 source: "Marc Andreessen"
 reference: "http://www.econtalk.org/archives/2014/05/marc_andreessen.html"
 ---
