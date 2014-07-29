@@ -3,13 +3,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>
-    Matthew Fieger{% if page.title %} | {{ page.title }}{% endif %}
+    {% if page.title %}{{ page.title }}{% endif %}
     </title>
 
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Matthew Fieger - Personal Website and Blog{% if page.title %} - {{ page.title }}{% endif %}">
+    <meta name="description" content="{% if page.title %}{{ page.title }}{% endif %}">
     <meta name="author" content="Matthew Fieger">
-    <meta name="keywords" content="Matthew Fieger, Matt Fieger, matthewfieger">
+    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }}, {% endfor %}Matthew Fieger, Matt Fieger, matthewfieger">
     <meta name="robots" content="noodp">
     <meta name="generator" content="Jekyll v2.0.3">
     <link rel="alternate" type="application/rss+xml" title="MatthewFieger - Feed" href="{{ site.url }}/feed.xml">
