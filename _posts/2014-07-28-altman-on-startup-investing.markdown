@@ -14,4 +14,6 @@ reference: "http://blog.samaltman.com/black-swan-seed-rounds"
 
 > Great companies often look like bad ideas at beginning...[but] being contrarian and wrong is still bad—you have to be contrarian and right.  I think the only takeaway about what other investors think is that you should ignore it.
 
-Read more [here]({{page.reference}}).
+> To be clear: I don't think seed investing is random. Far from it. I just think it's really important to think independently and take the time to really get to know founders and understand businesses instead of just following other investors.
+
+Read more [here]({{page.reference}}) and [here](https://news.ycombinator.com/item?id=8098438).
