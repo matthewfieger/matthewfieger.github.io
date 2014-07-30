@@ -21,9 +21,10 @@ After we have added the initial documents to our pseudo-collection, we can now c
 Finally, when we see the `self.onStop()` event, we call `.stop()` on each of our `observeChanges` handler functions so that we stop observing changes.
 
 On the client, we create and subscribe to the new collection with:
-
-* `Activity = new Meteor.Collection('activity')`
-* `Meteor.subscribe('activity', {'projectId': Session.get("currentProject"), limit: 100})`
+{% highlight javascript %}
+	Activity = new Meteor.Collection('activity')
+	Meteor.subscribe('activity', {'projectId': Session.get("currentProject"), limit: 100})
+{% endhighlight %}
 
 Anyway, below is the code for the publish function.  The same basic pattern should work for reactively joining an arbitrary number of collections and publishing the result to the client.  If anyone can suggest a more trivial approach for multiple reactive joins in Meteor, please reach out to me on Twitter!
 
