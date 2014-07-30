@@ -12,8 +12,8 @@ As such, deign thinking is a paradigm shift.  It changes the perspective and ove
 
 <table class="table table-striped"><thead>
 <tr>
-<th>Design Thinking</th>
-<th>Strategic Planning</th>
+<th>Favored by Design Thinking</th>
+<th>Favored by Strategic Planning</th>
 </tr>
 </thead><tbody>
 <tr>
@@ -21,7 +21,7 @@ As such, deign thinking is a paradigm shift.  It changes the perspective and ove
 <td>Planning</td>
 </tr>
 <tr>
-<td>Uncertainty</td>
+<td>Uncertainty / Ambiguity</td>
 <td>Status Quo</td>
 </tr>
 <tr>
