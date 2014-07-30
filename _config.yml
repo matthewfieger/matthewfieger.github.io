@@ -9,5 +9,5 @@ url: "http://matthewfieger.com" # for production
 
 exclude: ["CNAME", "README.md"] # exclude files from site build
 
-paginate: 15 # maximum number of posts you’d like to be displayed per page
+paginate: 25 # maximum number of posts you’d like to be displayed per page
 paginate_path: "blog/page:num" # specify where the destination of the pagination pages
