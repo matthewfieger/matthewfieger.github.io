@@ -3,7 +3,7 @@ layout: post
 title:  "Altman on Startup Investing"
 date:   2014-07-28 15:22:00
 categories: posts quotes
-tags: ["business", "startup financing", "seed round"]
+tags: ["business", "startups", "finance", "seed round"]
 source: "Sam Altman"
 reference: "http://blog.samaltman.com/black-swan-seed-rounds"
 ---
