@@ -12,29 +12,29 @@ As such, deign thinking is a paradigm shift.  It changes the perspective and ove
 
 <table class="table table-striped"><thead>
 <tr>
-<th>Favored by Design Thinking</th>
-<th>Favored by Strategic Planning</th>
+<th>Design Thinking Approach</th>
+<th>Strategic Planning Approach</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>Doing</td>
-<td>Planning</td>
+<td>Favors Doing</td>
+<td>Favors Planning</td>
 </tr>
 <tr>
-<td>Uncertainty / Ambiguity</td>
-<td>Status Quo</td>
+<td>Leverages Uncertainty and Ambiguity</td>
+<td>Leverages the Status Quo</td>
 </tr>
 <tr>
-<td>Novelty</td>
-<td>Stability</td>
+<td>Prefers Novelty</td>
+<td>Prefers Stability</td>
 </tr>
 <tr>
-<td>Emergent</td>
-<td>Deliberate</td>
+<td>Emergent Strategy</td>
+<td>Deliberate Strategy</td>
 </tr>
 <tr>
-<td>Iterative</td>
-<td>Extrapolative</td>
+<td>Reduces Risk through Iteration</td>
+<td>Reduces Risk through Extrapolation</td>
 </tr>
 <tr>
 <td>Tacit Knowledge</td>
@@ -45,19 +45,19 @@ As such, deign thinking is a paradigm shift.  It changes the perspective and ove
 <td>Objective Experience</td>
 </tr>
 <tr>
-<td>Empathetic</td>
-<td>Sympathetic</td>
+<td>Empathetic Emotion</td>
+<td>Sympathetic Emotion</td>
 </tr>
 <tr>
-<td>Intuition</td>
-<td>Rationality</td>
+<td>Intuitive Thinking</td>
+<td>Rational Thinking</td>
 </tr>
 <tr>
-<td>Vision</td>
-<td>Reality</td>
+<td>Favors Vision</td>
+<td>Favors Reality</td>
 </tr>
 <tr>
-<td>Action</td>
-<td>Inquiry</td>
+<td>Favors Action</td>
+<td>Favors Inquiry</td>
 </tr>
 </tbody></table>
