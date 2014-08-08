@@ -26,7 +26,7 @@ title: 'Matthew Fieger | Personal Website and Blog | Home'
       {% if page == paginator.page %}
         <li class="active"><a href="#">{{ page }}</a></li>
       {% elsif page == 1 %}
-        <li><a href="{{ '/index.html' | prepend: site.url }}">{{ page }}</a></li>
+        <li><a href="{{ 'index.html' | prepend: site.url }}">{{ page }}</a></li>
       {% else %}
         <li><a href="{{ site.paginate_path | prepend: site.url | replace: ':num', page }}">{{ page }}</a></li>
       {% endif %}
