@@ -5,7 +5,7 @@ redcarpet:
 highlighter: pygments
 
 url: "http://matthewfieger.com" # for production
-# url: "http://0.0.0.0:4000" # for staging
+# url: "http://0.0.0.0:4000/" # for staging
 
 exclude: ["CNAME", "README.md"] # exclude files from site build
 
