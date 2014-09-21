@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thiel on Competition"
-date:   2014-09-08 00:45:00
+date:   2014-09-18 00:45:00
 categories: posts quotes
 tags: ["entrepreneurship", "competition", "monopoly"]
 source: "Peter Thiel"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hayek on Bad Men"
-date:   2014-09-08 00:38:00
+date:   2014-09-18 00:38:00
 categories: posts quotes
 tags: ["classical liberalism", "individualism", "institutional design"]
 source: "F.A. Hayek"
