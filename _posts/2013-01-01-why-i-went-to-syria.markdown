@@ -6,10 +6,9 @@ categories: posts me
 tags: ["syria", "about me"]
 ---
 
-How did I end up in Syria?
+What took me to Syria?
 
-Education
----------
+<h5>Education</h5>
 
 I have always been most confident reasoning from the bottom up, which is sometimes referred to as reasoning from first principles. When I began my studies, I was naturally attracted to understanding the low-level dynamics of the world around me.  This lead me to concentrate in physics while completing my undergraduate degree at Colgate University.  I gained insight into the physical world by learning subjects such as electro-magnetics, thermodynamics and quantum mechanics.  I was humbled to discover that the laws of nature can be highly counter-intuitive.  However, I find it inspiring that the physical world can be encoded so elegantly into mathematical laws.  I still don't understand why that is the case - why should the concrete relate to the abstract so elegantly?
 
@@ -21,8 +20,7 @@ I can attest to the fact that studying Arabic is difficult, but not in the way t
 
 I left the United States for the first time to spend the summer living and studying in Amman, Jordan.  As an American studying at the University of Jordan, it was easy to make friends and meet new people.  In addition to my regular Arabic courses, I arranged daily language exchanges with a number of local students.  I spent time with them at their jobs and in their homes. I even attended one's cousin's wedding.  In my free time, I explored Jordan and the surrounding region from top to bottom.  I gained valuable insight into the people and the culture and by the end of my time there, I finally felt comfortable speaking Arabic.
 
-Exploration
------------
+<h5>Exploration</h5>
 
 After graduating from Colgate I was hungrier than ever to indulge my curiosity.  I had briefly visited Syria a couple of times on my last trip.  It had a different feel than any other place I had visited.  It was a country in political, economic and informational isolation.  It was also a country rich with ethnic, cultural, religious and linguistic diversity.  Most importantly, however, it was a country that wanted to open itself up to the modern world but didn't know how.  With all of this unfolding, I had an intuitive sense that this was a place that was worth deeper exploration.
 
