@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Davies on Cities"
-date:   2014-06-06 10:34:00
+date:   2014-10-26 10:35:00
 categories: posts quotes
 tags: ["cities", "emergence", "knowledge"]
 source: "Jim Davies"
