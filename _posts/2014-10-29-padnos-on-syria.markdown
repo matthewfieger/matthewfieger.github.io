@@ -3,7 +3,7 @@ layout: post
 title:  "Padnos on Syria"
 date:   2014-10-29 12:32:00
 categories: posts quotes
-tags: ["politics", "syria"]
+tags: ["syria"]
 source: "Theo Padnos"
 link: "http://www.nytimes.com/2014/10/28/magazine/theo-padnos-american-journalist-on-being-kidnapped-tortured-and-released-in-syria.html"
 ---
