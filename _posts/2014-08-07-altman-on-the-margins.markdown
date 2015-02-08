@@ -3,7 +3,7 @@ layout: post
 title:  "Altman on The Margins"
 date:   2014-08--7 16:57:00
 categories: posts quotes
-tags: ["business", "startups", "ideas", "margins"]
+tags: ["progress", "business", "startups", "ideas", "margins"]
 source: "Sam Altman"
 reference: "http://blog.samaltman.com/stupid-apps-and-changing-the-world"
 ---
