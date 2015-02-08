@@ -3,7 +3,7 @@ layout: post
 title:  "Harper on Progress"
 date:   2015-02-08 09:23:00
 categories: posts quotes
-tags: ["skin in the game"]
+tags: ["progress", "innovation"]
 source: "F.A. Harper"
 reference: "http://cafehayek.com/2015/02/quotation-of-the-day-1260.html"
 ---
