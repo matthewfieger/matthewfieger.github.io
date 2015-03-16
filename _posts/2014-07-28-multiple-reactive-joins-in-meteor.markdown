@@ -8,7 +8,7 @@ tags: ["programming", "meteor", "basecamp insights"]
 
 I just spent the last few hours developing a new feature for [Basecamp Insights](http://basecampinsights.com).  The idea is to create a client-side activity feed that monitors activity in four different collections in real time.  I decided that the best way to go about this would be to reactively join the relevant documents from each of those four collections on the server and then publish them to a client side pseudo-collection.  Alternatively, we could send all four collections down to the client and then assemble the activity feed from there.  In that case however, we would be over-publishing documents if its just the activity feed that the client is interested in.  So with a reactive join approach, although we are asking the server to do a little more work, we are minimizing wait times for the client by only publishing exactly what is needed.
 
-So again, the server is joining four different collections into a single pseudo-collection that is published to the client.  In the code below, you will see the same patterns repeated four times.  For each of those four collections, we are essentially doing two things.
+To reiterate, the server is joining four different collections into a single pseudo-collection that is published to the client.  In the code below, you will see the same patterns repeated four times.  For each of those four collections, we are essentially doing two things.
 
 First, when the publish function first runs, for each of the four collections we:
 
@@ -26,7 +26,7 @@ On the client, we create and subscribe to the new collection with:
 	Meteor.subscribe('activity', {'projectId': Session.get("currentProject"), limit: 100})
 {% endhighlight %}
 
-Anyway, below is the code for the publish function.  The same basic pattern should work for reactively joining an arbitrary number of collections and publishing the result to the client.  If anyone can suggest a more trivial approach for multiple reactive joins in Meteor, please reach out to me on Twitter!
+Below is the code for the publish function.  The same basic pattern should work for reactively joining an arbitrary number of collections and publishing the result to the client.  If anyone can suggest a simpler approach for multiple reactive joins in Meteor, please reach out to me on Twitter!
 
 {% highlight javascript %}
 	// server: publish an activity feed based on 4 different collections
