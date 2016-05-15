@@ -1,6 +1,6 @@
 name: MatthewFieger
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 url: "http://matthewfieger.com/" # for production
 # url: "http://0.0.0.0:4000/" # for staging
