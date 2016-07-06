@@ -5,7 +5,7 @@ date:   2016-06-22 21:44:00
 categories: posts quotes
 tags: ["politics", "syria"]
 source: "NY Times"
-reference: http://www.nytimes.com/2016/06/23/opinion/the-false-lure-of-military-intervention-in-syria.html"
+reference: "http://www.nytimes.com/2016/06/23/opinion/the-false-lure-of-military-intervention-in-syria.html"
 ---
 
 {{ page.source }} on intervention in Syria:
