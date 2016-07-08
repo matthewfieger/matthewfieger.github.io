@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Peron on Libertarianism"
-date:   2016-06-02 12:19:00
+date:   2016-07-02 12:19:00
 categories: posts quotes
 tags: ["political philosophy", "libertarianism", "consequentialism", "deontology", "moralism", "natural rights"]
 source: "James Peron"
