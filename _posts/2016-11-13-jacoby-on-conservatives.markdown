@@ -17,3 +17,5 @@ reference: "http://www.jeffjacoby.com/19376/conservatives-vs-trump"
 > And for conservative Republicans who decline to cut their conscience to fit this year's fashions? They won't be in the wilderness, exactly, but political life for them is about to become more uncomfortable.
 
 > The pull of partisan loyalty has always been hard for elected officials to resist. It has grown exponentially harder in our hyperpolarized environment — and the ascent of a new president with a vengeance reflex will make it harder still. Republican conservatives will need all the backbone they can muster when the leader of their party pushes them to support his anticonservative nostrums.
+
+Read more [here]({{page.reference}}).
