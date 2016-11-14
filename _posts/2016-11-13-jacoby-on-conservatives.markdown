@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  “Jacoby on Conservatives“
+title:  "Jacoby on Conservatives"
 date:   2016-11-13 20:52:00
 categories: posts quotes
-tags: ["politics", “republican party“, “conservatives”]
-source: “Jeff Jacoby“
+tags: ["politics", "republican party", "conservatives"]
+source: "Jeff Jacoby"
 reference: "http://www.jeffjacoby.com/19376/conservatives-vs-trump"
 ---
 
