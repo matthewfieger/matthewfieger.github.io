@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  “Klein on the FDA”
+title:  "Klein on the FDA"
 date:   2017-04-08 10:53:00
 categories: posts quotes
-tags: [“healthcare”, “regulation”, “public policy”, “permissionless“]
-source: “Daniel Klein”
+tags: ["healthcare", "regulation", "public policy", "permissionless"]
+source: "Daniel Klein"
 reference: "http://www.redstate.com/diary/HeartlandInstitute/2017/03/23/right-direction-fda/"
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Epstein on Immigration”
+title:  "Epstein on Immigration"
 date:   2016-12-07 19:36:00
 categories: posts quotes
-tags: [“politics”, “immigration“]
+tags: ["politics", "immigration"]
 source: "Richard Epstein"
 reference: "http://www.hoover.org/research/americas-immigration-quagmire"
 ---
