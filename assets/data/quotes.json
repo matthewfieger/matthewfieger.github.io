@@ -113,7 +113,7 @@
 	{"Joseph Schumpeter" : "The opening up of new markets, foreign or domestic, and the organizational development from the craft shop and factory to such concerns as U. S. Steel illustrate the same process of industrial mutation-if I may use that biological term-that incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one. This process of Creative Destruction is the essential fact about capitalism."},
 
 	{"Joseph Schumpeter" : "Innovation is the market introduction of a technical or organisational novelty, not just its invention."},
-	
+
 	{"Clayton Christensen" : "It’s easier to hold to your principles 100% of the time than it is to hold to them 98% of the time."},
 
 	{"Clayton Christensen" : "Generally, disruptive innovations were technologically straightforward, consisting of off-the-shelf components put together in a product architecture that was often simpler than prior approaches. They offered less of what customers in established markets wanted and so could rarely be initially employed there. They offered a different package of attributes valued only in emerging markets remote from, and unimportant to, the mainstream"},
@@ -124,7 +124,13 @@
 
 	{"Laozi" : "A leader is best when people barely know that he exists...when his work is done, his aims fulfilled, they will all say, \"We did this ourselves.\""},
 
-	{"Euler" : "e^{i*pi} + 1 = 0"}
+	{"Euler" : "e^{i*pi} + 1 = 0"},
+
+	{"John Stuart Mill": "He who knows only his own side of the case, knows little of that."},
+
+	{"Seymour Martin Lipset" : "A person who knows only one country knows no countries."},
+
+	{"Bertrand Russell" : "The fundamental cause of the trouble in the modern world today is that the stupid are cocksure while the intelligent are full of doubt."}
 
 	]
 }
