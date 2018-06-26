@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "David French on Jordan Peterson"
+title:  "French on Jordan Peterson"
 date:   2018-05-31 10:53:00
 categories: posts quotes
 tags: ["politics", "religion", "society"]
