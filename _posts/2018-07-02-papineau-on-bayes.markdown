@@ -8,7 +8,7 @@ source: "David Papineau"
 reference: "https://www.the-tls.co.uk/articles/public/thomas-bayes-science-crisis/"
 ---
 
-{{ page.source }} on the Bayesian Analysis:
+{{ page.source }} on Bayesian Analysis:
 
 > The vindication of Bayesian thinking is not yet complete. Perhaps unsurprisingly, many mainstream university statistics departments are still unready to concede that they have been preaching silliness for over a century. Even so, the replicability crisis is placing great pressure on their orthodoxy. Since the whole methodology of significance tests is based on the idea that we should tolerate a 5 per cent level of bogus findings, statistical traditionalists are not well placed to dodge responsibility when bogus results are exposed.
 
