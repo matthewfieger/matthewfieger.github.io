@@ -12,4 +12,4 @@ reference: "https://www.aspenideas.org/session/jordan-peterson-barricades-cultur
 
 > The problem with books and videos is that you can't do anything else while you are doing them....If you are listening to a podcast you can be driving...exercising or doing the dishes.  What that means is that podcasts free up say two hours a day for people to engage in educational activities that they wouldn't otherwise be able to engage in.  And that is about one-eighth of people's lives.  So podcasts hand people one-eighth of their life back to engage in high level education.
 
-Read more [here]({{page.reference}}).
+Watch more [here]({{page.reference}}).
