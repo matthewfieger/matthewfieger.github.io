@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Amrhein and Others on Statistical Significance"
-date:   2018-03-20 20:36:00
+date:   2019-03-20 20:36:00
 categories: posts quotes
 tags: ["statistics"]
 source: "Valentin Amrhein"
