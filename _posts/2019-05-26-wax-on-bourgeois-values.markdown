@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Wax and Alexander on Bourgeois Values"
-date:   2019-05-26 10:23:00
+title: "Wax and Alexander on Bourgeois Values"
+date: 2019-05-26 10:23:00
 categories: posts quotes
-tags: ["culture", "normative behavior"
+tags: ["culture", "normative behavior"]
 source: "Amy Wax and Larry Alexander"
 reference: "https://www.philly.com/philly/opinion/commentary/paying-the-price-for-breakdown-of-the-countrys-bourgeois-culture-20170809.html"
 ---
