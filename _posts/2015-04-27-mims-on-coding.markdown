@@ -3,7 +3,7 @@ layout: post
 title:  "Mims on Coding and the Liberal Arts"
 date:   2015-04-27 17:20:00
 categories: posts quotes
-tags: ["learn-to-code", "liberal arts", "programming"]
+tags: ["learn to code", "liberal arts", "programming"]
 source: "Christopher Mims"
 reference: "http://www.wsj.com/articles/why-coding-is-your-childs-key-to-unlocking-the-future-1430080118"
 ---

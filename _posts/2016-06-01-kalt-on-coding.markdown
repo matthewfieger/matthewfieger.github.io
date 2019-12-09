@@ -3,7 +3,7 @@ layout: post
 title:  "Kalt on Coding"
 date:   2016-06-01 20:41:00
 categories: posts quotes
-tags: ["learn-to-code", "liberal-arts"]
+tags: ["learn to code", "liberal-arts"]
 source: "David Kalt"
 reference: "http://blogs.wsj.com/experts/2016/06/01/why-i-was-wrong-about-liberal-arts-majors/"
 ---
